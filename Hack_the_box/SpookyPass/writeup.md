@@ -19,5 +19,5 @@ Running the binary again and entering the discovered password gives us the flag:
   
 ![Screenshot from 2025-04-29 16-22-29](https://github.com/user-attachments/assets/7b66d136-e104-443b-8a5c-53e9abcf5b38)
 
-Flag
+Flag  
 HTB{un0bfu5c4t3d_5tr1ng5}  

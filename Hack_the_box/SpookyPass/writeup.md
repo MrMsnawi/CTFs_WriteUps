@@ -4,7 +4,7 @@ This challenge presents a binary that prompts the user for a password. Upon ente
 **🕵️ Challenge Overview**  
 When running the program, it simply asks for a password:  
   
-![Screenshot from 2025-04-29 16-21-16](https://github.com/user-attachments/assets/9a0be239-2c09-4dc8-a3ac-d8758fcc3243)  
+![1](images/1.png)  
   
 Instead of reverse-engineering the binary in depth, we can apply a quick static analysis trick.  
   

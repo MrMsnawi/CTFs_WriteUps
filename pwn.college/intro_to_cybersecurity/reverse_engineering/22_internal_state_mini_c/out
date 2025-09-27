@@ -1,0 +1,20 @@
+
+typedef struct
+{
+    union
+    {
+        char data[24];
+        struct term_str_st
+        {
+            char color_set[7];   // \x1b[38;2;
+            char r[3];          // 255
+            char s1;            // ;
+            char g[3];          // 255
+            char s2;            // ;
+            char b[3];          // 255
+            char m;            // m
+            char c;             // X
+            char color_reset[4];     // \x1b[0m
+        } str;
+    };
+} term_pixel_t;

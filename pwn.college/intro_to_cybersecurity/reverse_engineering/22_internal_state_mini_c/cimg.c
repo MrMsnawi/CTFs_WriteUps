@@ -215,9 +215,7 @@ int main(int argc, char **argv, char **envp)
             exit(-1);
         }
     }
-
     display(&cimg, data);
-
     if (cimg.num_pixels != sizeof(desired_output)/sizeof(term_pixel_t))
     {
         won = 0;

@@ -4,9 +4,9 @@ import struct
 
 magic = b"cIMG"
 version = 3
-w = 6
-h = 31
-dir_rem = 2
+w = 22
+h = 22
+dir_rem = 3
 dir_code1 = 35656
 dir_code2 = 13725
 
@@ -58,6 +58,7 @@ pix_2 = [
 (255, 255, 255, ord('-')),
 (255, 255, 255, ord('.')),
 (255, 255, 255, ord('|')),
+(255, 255, 255, ord(' ')),
 (255, 255, 255, ord('|')),
 (255, 255, 255, ord('|')),
 (17, 250, 146, ord('_')),
@@ -104,7 +105,6 @@ pix_2 = [
 (118, 169, 66, ord('|')),
 (118, 169, 66, ord('|')),
 (118, 169, 66, ord('_')),
-(118, 169, 66, ord(' ')),
 (255, 255, 255, ord('|')),
 (255, 255, 255, ord('|')),
 (17, 250, 146, ord('\\')),
@@ -136,7 +136,6 @@ pix_2 = [
 (196, 169, 155, ord('|')),
 (196, 169, 155, ord('|')),
 (196, 169, 155, ord('|')),
-(118, 169, 66, ord(' ')),
 (118, 169, 66, ord('\\')),
 (118, 169, 66, ord('_')),
 (118, 169, 66, ord('_')),
@@ -202,24 +201,16 @@ pix_2 = [
 (255, 255, 255, ord('\'')),
 ]
 
-hand_2_base_x = 1
-hand_2_base_y = 1
+base_x = 12
+base_y = 5
 hand_w = 1
 hand_h = 1
 
 header = struct.pack("<4sHBBI", magic, version, w, h, dir_rem)
 
-dir_2 = struct.pack("<HBBBB", dir_code2, hand_2_base_x, hand_2_base_y, hand_w, hand_h)
-
-#size = (hand_w * hand_h) * 3
-#for _ in range(size):
-#    dir_2 += b"\x22"
+dir_2 = struct.pack("<HBBBB", dir_code2, base_x, base_y, hand_w, hand_h)
 
 dir_1 = struct.pack("<H", dir_code1)
-
-#s = (w * h) * 3
-#for _ in range(s):
-#    dir_1 += b"\x22"
 
 pixels_bytes = bytearray()
 for r, g, b, a in pixels:
@@ -235,4 +226,3 @@ with open("file.cimg", "wb") as file:
     file.write(pixels_bytes)
     file.write(dir_1)
     file.write(pix_2_bytes)
-

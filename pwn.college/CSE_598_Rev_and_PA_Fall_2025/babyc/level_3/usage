@@ -1,0 +1,7 @@
+#!/bin/bash
+
+./create_fixed_random.py
+
+gcc -shared -fPIC -o my_fopen.so my_fopen.c -ldl
+
+printf "random" | LD_PRELOAD=./my_fopen.so ./main

@@ -1,7 +1,4 @@
 #!/bin/bash
+cc solve.c
 
-./create_fixed_random.py
-
-gcc -shared -fPIC -o my_fopen.so my_fopen.c -ldl
-
-printf "random" | LD_PRELOAD=./my_fopen.so ./main
+i=0; while [ $i -lt 1000 ]; do     ./a.out | ./main;     i=$((i+1)); done | grep pwn.college{

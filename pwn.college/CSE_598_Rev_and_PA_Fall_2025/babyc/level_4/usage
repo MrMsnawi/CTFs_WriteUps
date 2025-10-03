@@ -1,0 +1,4 @@
+#!/bin/bash
+cc solve.c
+
+./a.out > tmp ; cat tmp >> tmp | ./main  | grep pwn.college{

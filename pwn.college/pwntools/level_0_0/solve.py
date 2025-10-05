@@ -2,11 +2,11 @@
 
 from pwn import *
 
-program = "./pwntools-tutorials-level1.0"
+context(arch="amd64", os="linux", log_level="info")
 
-p = process(program)
+p = process("./pwntools-tutorials-level0.0")
 
-payload = b"\xef\xbe\xad\xde\n"
+payload = b'pokemon\n'
 
 p.sendafter(b":)\n###\n", payload)
 

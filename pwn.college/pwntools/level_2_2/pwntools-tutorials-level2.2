@@ -15,14 +15,15 @@ from capstone import *
 sys.path.append('/challenge/')
 from util import *
 
-
 pwnlib.context.context.update(arch="amd64")
 builtin_print = print
 print = lambda text: builtin_print(re.sub("\n{2,}", "\n\n", textwrap.dedent(str(text))))
 
 
 class ASMBase:
-
+    '''
+    Base Object of ASM Challenges
+    '''
     BASE_ADDR = 0x400000
     CODE_ADDR = BASE_ADDR
     LIB_ADDR = BASE_ADDR + 0x3000
@@ -216,24 +217,30 @@ class ASMBase:
 
 class ASMChallenge(ASMBase):
     """
-    Set the value of a specific register, rax
+    Exchange the value of registers
     """
 
-    name = "pwntools-tutorials-level2.0"
-    init_rax = 0
+    name = "pwntools-tutorials-level2.2"
+    init_rdx = 0
+    init_rax = random.randint(0, 0x100000000)
+    init_rbx = random.randint(0, 0x100000000)
+    init_rcx = random.randint(0, 0x100000000)
+    init_rsi = random.randint(0, 0x100000000)
     init_memory = {}
-
 
     @property
     def description(self):
         return f"""
-        In this level you need to craft assembly code to satisfy the following conditions:
-        * rax = 0x12345678
+        In this level you need to craft assembly code to complete the following operations:
+        * rax = rax % rbx + rcx - rsi
+
+        We already set the following in preparation for your code:
+        rdx = 0
         """
 
     def trace(self):
         self.start()
-        return self.rax == 0x12345678
+        return (self.rax == self.init_rax % self.init_rbx + self.init_rcx - self.init_rsi)
 
 def main():
     challenge = ASMChallenge()

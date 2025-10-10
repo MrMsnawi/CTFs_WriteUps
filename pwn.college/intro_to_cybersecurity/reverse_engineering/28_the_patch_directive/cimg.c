@@ -121,7 +121,7 @@ struct cimg
 #define CIMG_FRAMEBUFFER_PIXELS(cimg) ((cimg)->header.width * (cimg)->header.height)
 #define CIMG_FRAMEBUFFER_SIZE(cimg) (CIMG_FRAMEBUFFER_PIXELS(cimg) * sizeof(term_pixel_t))
 
-//#include "cimg-handlers.c" // YOU DON'T GET THIS FILE!
+#include "cimg-handlers.c" // YOU DON'T GET THIS FILE!
 
 void display(struct cimg *cimg, pixel_t *data)
 {
@@ -190,7 +190,7 @@ int main(int argc, char **argv, char **envp)
     }
 
     initialize_framebuffer(&cimg);
-/*
+
     while (cimg.header.remaining_directives--)
     {
         uint16_t directive_code;
@@ -204,14 +204,14 @@ int main(int argc, char **argv, char **envp)
         case 13725:
             handle_13725(&cimg);
             break;
-        default:
+	    default:
             fprintf(stderr, "ERROR: invalid directive_code %ux\n", directive_code);
             exit(-1);
         }
-    }*/
+    }
     display(&cimg, NULL);
 
-    printf("%zu %zu\n", cimg.num_pixels, sizeof(desired_output)/sizeof(term_pixel_t));
+    //printf("%zu %zu\n", cimg.num_pixels, sizeof(desired_output)/sizeof(term_pixel_t));
 
     if (cimg.num_pixels != sizeof(desired_output)/sizeof(term_pixel_t))
     {

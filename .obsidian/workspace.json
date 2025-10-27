@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "picoCTF/picoGym_Exclusive/forensics/DISKO_1/solve.md",
+                "file": "picoCTF/picoGym_Exclusive/forensics/DISKO_2/solve.md",
                 "mode": "source",
                 "source": false
               },
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "picoCTF/picoGym_Exclusive/forensics/DISKO_1/solve.md",
+                "file": "picoCTF/picoGym_Exclusive/forensics/DISKO_2/solve.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "picoCTF/picoGym_Exclusive/forensics/DISKO_1/solve.md",
+                "file": "picoCTF/picoGym_Exclusive/forensics/DISKO_2/solve.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "picoCTF/picoGym_Exclusive/forensics/DISKO_1/solve.md",
+                "file": "picoCTF/picoGym_Exclusive/forensics/DISKO_2/solve.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -171,10 +171,10 @@
   },
   "active": "b473c807b35cea31",
   "lastOpenFiles": [
+    "picoCTF/picoGym_Exclusive/forensics/DISKO_1/solve.md",
     "picoCTF/picoGym_Exclusive/forensics/DISKO_1/subject.png",
     "picoCTF/picoGym_Exclusive/forensics/DISKO_2/solve.md",
     "picoCTF/picoGym_Exclusive/forensics/DISKO_2/subject.png",
-    "picoCTF/picoGym_Exclusive/forensics/DISKO_1/solve.md",
     "picoCTF/picoGym_Exclusive/forensics/DISKO_2/partition1.dd",
     "picoCTF/picoGym_Exclusive/forensics/DISKO_2/disko-2.dd",
     "picoCTF/picoGym_Exclusive/forensics/DISKO_2/disko-2.qwqSQEEf.dd.gz.part",

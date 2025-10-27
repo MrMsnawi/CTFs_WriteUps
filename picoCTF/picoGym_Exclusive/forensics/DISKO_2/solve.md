@@ -1,5 +1,5 @@
 ### The challenge:
-![challenge](picoCTF/picoGym_Exclusive/forensics/DISKO_2/subject.png)
+![challenge](subject.png)
 first I decompressed the file:
 ```
 ousen@0u5en $ ls

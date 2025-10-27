@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "picoCTF/pwn/pie_time/README.md",
+                "file": "picoCTF/picoGym_Exclusive/forensics/DISKO_2/solve.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "solve"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "picoCTF/pwn/pie_time/README.md",
+                "file": "picoCTF/picoGym_Exclusive/forensics/DISKO_2/solve.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              "title": "Backlinks for solve"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "picoCTF/pwn/pie_time/README.md",
+                "file": "picoCTF/picoGym_Exclusive/forensics/DISKO_2/solve.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from README"
+              "title": "Outgoing links from solve"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "picoCTF/pwn/pie_time/README.md",
+                "file": "picoCTF/picoGym_Exclusive/forensics/DISKO_2/solve.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of solve"
             }
           }
         ]
@@ -171,7 +171,18 @@
   },
   "active": "b473c807b35cea31",
   "lastOpenFiles": [
+    "picoCTF/picoGym_Exclusive/forensics/DISKO_2/subject.png",
     "picoCTF/picoGym_Exclusive/forensics/DISKO_1/solve.md",
+    "picoCTF/picoGym_Exclusive/forensics/DISKO_2/partition1.dd",
+    "picoCTF/picoGym_Exclusive/forensics/DISKO_2/disko-2.dd",
+    "picoCTF/picoGym_Exclusive/forensics/DISKO_2/disko-2.qwqSQEEf.dd.gz.part",
+    "picoCTF/picoGym_Exclusive/forensics/DISKO_2/disko-2.dd.gz",
+    "picoCTF/picoGym_Exclusive/forensics/DISKO_2/solve.md",
+    "picoCTF/picoGym_Exclusive/forensics/DISKO_1/subject.png",
+    "picoCTF/pwn/pie_time/README.md",
+    "picoCTF/picoGym_Exclusive/forensics/DISKO_2/Screenshot from 2025-10-27 20-50-32.png",
+    "picoCTF/picoGym_Exclusive/forensics/DISKO_2/disko-2.0VwXDPaN.dd.gz.part",
+    "picoCTF/picoGym_Exclusive/forensics/DISKO_2",
     "picoCTF/picoGym_Exclusive/reverse_engineering/Picker_III/subject.png",
     "picoCTF/picoGym_Exclusive/reverse_engineering/Picker_II/subject.png",
     "picoCTF/picoGym_Exclusive/reverse_engineering/Picker_I/subject.png",
@@ -179,9 +190,6 @@
     "picoCTF/picoGym_Exclusive/reverse_engineering/GDB_baby_step_3/subject.png",
     "picoCTF/picoGym_Exclusive/reverse_engineering/GDB_baby_step_2/subject.png",
     "picoCTF/picoGym_Exclusive/reverse_engineering/GDB_baby_step_1/subject.png",
-    "picoCTF/picoGym_Exclusive/reverse_engineering/Bit-O-Asm-4/subject.png",
-    "picoCTF/picoGym_Exclusive/reverse_engineering/Bit-O-Asm-3/subject.png",
-    "picoCTF/picoGym_Exclusive/reverse_engineering/Bit-O-Asm-2/subject.png",
     "README.md"
   ]
 }

@@ -1,3 +1,7 @@
+### The challenge:
+![[picoCTF/picoGym_Exclusive/forensics/DISKO_1/subject.png]]
+
+We just decompressed the file and grep the flag:
 ```
 $ ls
 disko-1.dd.gz
@@ -15,4 +19,3 @@ picoCTF{1t5_ju5t_4_5tr1n9_be6031da}
 
 $ 
 ```
-

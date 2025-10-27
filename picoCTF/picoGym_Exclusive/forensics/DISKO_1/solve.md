@@ -1,5 +1,5 @@
 ### The challenge:
-![[picoCTF/picoGym_Exclusive/forensics/DISKO_1/subject.png]]
+![challenge](picoCTF/picoGym_Exclusive/forensics/DISKO_1/subject.png)
 
 We just decompressed the file and grep the flag:
 ```

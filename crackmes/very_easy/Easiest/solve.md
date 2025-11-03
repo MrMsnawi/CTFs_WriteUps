@@ -66,7 +66,7 @@ aaa for analyse the binary and afl to see the functions, I used pdf to disassemb
 │           0x1400013ae      4889c2         mov rdx, rax               ; int64_t arg2
 │           0x1400013b1      e8da0c0000     call sym.__mingw_scanf
 │           0x1400013b6      8b45fc         mov eax, dword [var_4h]
-│           0x1400013b9      3d79210000     cmp eax, 0x2179
+│           0x1400013b9      3d79210000     cmp eax, 0x****
 │       ┌─< 0x1400013be      7511           jne 0x1400013d1
 │       │   0x1400013c0      488d0548ac00.  lea rax, str.Correct__by_NullerF ; 0x14000c00f ; "Correct! by NullerF"
 │       │   0x1400013c7      4889c1         mov rcx, rax               ; int64_t arg1
@@ -84,16 +84,16 @@ aaa for analyse the binary and afl to see the functions, I used pdf to disassemb
 │           0x1400013f2      5d             pop rbp
 └           0x1400013f3      c3             ret
 ```
-we noticed a comparison after taking the input from scanf ```cmp eax, 0x2179```, and after that it checks if it correct or not, so 0x2179 is the correct PIN.
+we noticed a comparison after taking the input from scanf ```cmp eax, 0x2179```, and after that it checks if it correct or not, so 0x**** is the correct PIN.
 I converted it to decimal and gave it to the program, and it prints Correct.
 ```
-ousen@0u5en $ printf "%d\n" 0x2179
-8569 
+ousen@0u5en $ printf "%d\n" 0x****
+****
 ousen@0u5en $ wine easiest.exe 
 MESA-INTEL: warning: Haswell Vulkan support is incomplete
 MESA-INTEL: warning: Haswell Vulkan support is incomplete
 MESA-INTEL: warning: Haswell Vulkan support is incomplete
 MESA-INTEL: warning: Haswell Vulkan support is incomplete
-Enter PIN: 8569
+Enter PIN: ****
 Correct! by NullerF
 ```

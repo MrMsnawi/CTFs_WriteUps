@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "picoCTF/picoGym_Exclusive/forensics/DISKO_3/solve.md",
+                "file": "crackmes/Easiest/solve.md",
                 "mode": "source",
                 "source": false
               },
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -169,10 +170,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "b473c807b35cea31",
+  "active": "af7b3ebabf6735e1",
   "lastOpenFiles": [
-    "picoCTF/picoGym_Exclusive/forensics/DISKO_2/solve.md",
+    "crackmes/EasyCrackme/README.md",
+    "crackmes/Easiest/solve.md",
     "picoCTF/picoGym_Exclusive/forensics/DISKO_3/solve.md",
+    "picoCTF/picoGym_Exclusive/forensics/DISKO_2/solve.md",
     "picoCTF/picoGym_Exclusive/forensics/DISKO_1/solve.md",
     "picoCTF/picoGym_Exclusive/forensics/DISKO_3/disko-3.dd",
     "picoCTF/picoGym_Exclusive/forensics/DISKO_3/challenge.png",

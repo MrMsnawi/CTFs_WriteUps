@@ -11,10 +11,14 @@
             "id": "0508afca87359673",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "crackmes/very_easy/Easiest/solve.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "solve"
             }
           }
         ]
@@ -167,6 +171,8 @@
   },
   "active": "0508afca87359673",
   "lastOpenFiles": [
+    "crackmes/very_easy/Easiest/challenge.png",
+    "crackmes/very_easy/Easiest/solve.md",
     "crackmes/Easiest/solve.md",
     "crackmes/very_easy/EasyCrackme/images/3.png",
     "crackmes/very_easy/EasyCrackme/images/2.png",
@@ -176,7 +182,6 @@
     "crackmes/very_easy/EasyCrackme/files",
     "crackmes/very_easy/EasyCrackme/README.md",
     "crackmes/very_easy/EasyCrackme",
-    "crackmes/very_easy/Easiest/solve.md",
     "crackmes/very_easy/Easiest/easiest.exe",
     "crackmes/very_easy/Easiest/6906250b2d267f28f69b7a50.zip",
     "crackmes/very_easy/Easiest",
@@ -194,7 +199,6 @@
     "picoCTF/pwn/pie_time/README.md",
     "picoCTF/picoGym_Exclusive/forensics/DISKO_2/Screenshot from 2025-10-27 20-50-32.png",
     "picoCTF/picoGym_Exclusive/reverse_engineering/Picker_III/subject.png",
-    "picoCTF/picoGym_Exclusive/reverse_engineering/Picker_II/subject.png",
     "README.md"
   ]
 }

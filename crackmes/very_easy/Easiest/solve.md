@@ -1,3 +1,5 @@
+challenge link: https://crackmes.one/crackme/6906250b2d267f28f69b7a50
+![challenge](challenge.png)
 ```
 ousen@0u5en $ file easiest.exe 
 easiest.exe: PE32+ executable (console) x86-64, for MS Windows, 16 sections

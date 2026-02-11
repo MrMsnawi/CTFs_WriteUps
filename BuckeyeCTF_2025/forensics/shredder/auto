@@ -1,0 +1,6 @@
+#!/bin/bash
+i=0
+while [ "$i" -le 50 ]; do
+  ./recover document.png.shredded "$i"
+  i=$((i+1))
+done

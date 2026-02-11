@@ -1,0 +1,334 @@
+hi! this is my first writeup on this site.
+
+Initially, I cracked this crackme just to try binja, but i just wanted to share my result.
+
+This crackme is actually very interesting, and it probably deservers name "Matryoshka"
+
+firstly, lets open file in reverse engineering software. As i said earlier, i am using binary ninja (free version). Dont forget to set image base to 0!
+
+If we open pseudocode of function main, we can see here something like this:
+
+000011c9    int32_t main(int32_t argc, char** argv, char** envp)
+
+000011c9    {
+000011c9        void* fsbase;
+000011d8        int64_t rax = *(uint64_t*)((char*)fsbase + 0x28);
+000011d8        
+000011eb        if (argc == 2)
+000011eb        {
+00001211            char rax_7 = *(uint8_t*)argv[1] - 0x57;
+0000121e            void* const var_28 = &data_201c;
+00001231            int64_t var_20_1 = &argv[1][1];
+0000124f            sub_1344("pJCI\r", data_ea60, rax_7, &var_28);
+000011eb        }
+000011eb        else
+000011f7            puts("usage: ./matryoshka key");
+000011f7        
+00001267        *(uint64_t*)((char*)fsbase + 0x28);
+00001267        
+00001270        if (rax == *(uint64_t*)((char*)fsbase + 0x28))
+00001278            return 0;
+00001278        
+00001272        __stack_chk_fail();
+00001272        /* no return */
+000011c9    }
+
+As we see, "pJCI\r" passed to sub_1344 with data_ea60, rax_7 and var_28
+
+rax7 is *(argv[1]) - 0x57. This is equal to argv[1][0] - 0x57. Remeber it, we will come back to it soon.
+
+"pJCI\r" is not a string, actually. It is a pointer to data, but binja interprets it as string. Why? because binja(and many other software too) interprets any data which is fully printable before 00 as string. In our case it just interpreted pJCI\r\00 as string.
+
+Lets move to sub_1344
+00001344    int64_t sub_1344(void* arg1, int32_t arg2, char arg3, int64_t arg4)
+
+00001344    {
+00001344        sub_12f4(arg1, arg2, arg3);
+000013a6        return sub_13a7(sub_1279(arg1, arg2, 1), &data_201d, arg4);
+00001344    }
+
+This is how it's pseudocode looks like.
+
+we can see here that arg1, arg2 and arg3 are passed to 12f4. Lets jump to it
+000012f4    int64_t sub_12f4(void* arg1, int32_t arg2, char arg3)
+
+000012f4    {
+000012f4        int32_t i;
+000012f4        
+0000133e        for (i = 0; i < arg2; i += 1)
+0000133e            *(uint8_t*)((char*)arg1 + (int64_t)i) ^= arg3;
+0000133e        
+00001343        return i;
+000012f4    }
+
+It decrypts data on arg1 with len arg2 and key arg3 using xor.
+
+But how we can find the key? Well, answer is easy. Let's just brutforce it, as there is no other option.
+
+Remember "string" "pJCI\r" right? Lets make a python script that just will try to decrypt data with all keys in rage 0...255 (unsigned char).
+
+def xor(byts, k): return bytes([x ^ k for x in byts])
+
+for x in range(255):
+    print(xor(b'pJCI\r', x), x)
+
+lets see it!
+b'pJCI\r' 0
+b'qKBH\x0c' 1
+b'rHAK\x0f' 2
+b'sI@J\x0e' 3
+...
+b'\x7fELF\x02' 15
+Something familiar, right? It's elf magic.
+
+okay. 15 is the key. We can see that it is executable, so may be, let's decrypt it?
+
+wee can se that our "string" is at offset 0x4080
+lea     rdi, [rel data_4080]  {"pJCI\r"}
+
+But it is not offset in file. It is offset in memory. Why? ELF Pages are not mapped as in file. They've got padding because page is usually 4096 bytes long. So it is padded to 0x4080. Our offset in file is 0x3080, just 4096 less.
+
+Lets make python script to decrypt it.
+
+                                     
+with open("Matryoshka", "rb") as f:
+        k = 15
+        f.seek(0x3080)
+        d = f.read()
+        dd = list(d)
+        for x in range(len(dd)):
+                dd[x] ^= k
+        with open("decrypted_1", "wb") as f1:
+                f1.write(bytes(dd))
+
+But why are we taking data till the end? Well, ELF doesnt mid if there is some extra data on the end of the file. That's why we don't have to get the length of it.
+
+If you are interested what is done with this file, see.
+
+Let's remember our function.
+
+00001344    int64_t sub_1344(void* arg1, int32_t arg2, char arg3, int64_t arg4)
+
+00001344    {
+00001344        sub_12f4(arg1, arg2, arg3);
+000013a6        return sub_13a7(sub_1279(arg1, arg2, 1), &data_201d, arg4);
+00001344    }
+
+After decryption, it is passed to sub_1279. Let's see it.
+
+00001279    FILE* sub_1279(int64_t arg1, int32_t arg2, int32_t arg3)
+
+00001279    {
+00001279        int32_t fd = memfd_create(&data_201d, (uint64_t)arg3, &data_201d);
+000012ad        ftruncate(fd);
+000012c1        FILE* fp = fdopen(fd, "r+");
+000012dd        fwrite(arg1, 1, (uint64_t)arg2, fp);
+000012e9        rewind(fp);
+000012f3        return fp;
+00001279    }
+
+It created memory file decriptor. It is anonymous file in memory (in ANONYMOUS region). See https://man7.org/linux/man-pages/man2/memfd_create.2.html.
+
+Then it writes it contents (from arg1), with size from arg2. Arg3 is flags to memfd, which is 1 in our case.
+
+After writing, it returns the pointer to FILE*.
+
+the result goes to sub_13a7
+( sub_13a7(sub_1279(arg1, arg2, 1), &data_201d, arg4); )
+
+It's pseudocode is
+
+000013a7    int64_t sub_13a7(FILE* arg1, int64_t arg2, int64_t arg3)
+
+000013a7    {
+000013a7        int64_t var_78 = arg2;
+000013bb        void* fsbase;
+000013bb        int64_t rax = *(uint64_t*)((char*)fsbase + 0x28);
+000013f2        char s[0x48];
+000013f2        sprintf(&s, "/proc/self/fd/%d", (uint64_t)fileno(arg1), "/proc/self/fd/%d");
+000013f7        int64_t var_60 = 0;
+00001411        int64_t result = execve(&s, arg3, &var_60);
+0000141a        *(uint64_t*)((char*)fsbase + 0x28);
+0000141a        
+00001423        if (rax == *(uint64_t*)((char*)fsbase + 0x28))
+0000142b            return result;
+0000142b        
+00001425        __stack_chk_fail();
+00001425        /* no return */
+000013a7    }
+
+We can see that it gets decriptor of arg1 FP (fileno), then passes it to /proc/self/fd/{id} (files in /proc/self/fd are actually links to files that is opened with fd {id}). 
+
+Then it calls execve. Execve system call replaces current executable with new. It accepts three arguments. execve(char* path, char** argv, char** envp);
+
+But what is argv of new executable? Well, I didn't spent much time on it. I am using ARM machine on ALARM, that's why i'm using box64 to run x86_64 executables. So box64 can help us!
+
+Remember char rax_7 = *(uint8_t*)argv[1] - 0x57;? We know that key is 15, and rax_7 is passed as key. (rax_7 -> arg3 -> arg3). So lets add 0x57 and 15, and see what character is it.
+>>> chr(0x57 + 15)
+'f'
+
+It is f!
+As we can not run executable if it can not be decrypted, let's pass ftest to argv so key starts with f.
+
+[alarm crackme]$ box64 ./Matryoshka ftest
+...
+[BOX64] Looking for /proc/self/fd/3
+[BOX64] argv[1]="test"
+[BOX64] Error: File is not found. (/proc/self/fd/3)
+
+As /proc/self/fd/3 is not emulated with box64, it can not find it. Howewer, we see that test is passed to argv[1]. That means, a key without first character is passed.
+
+Okay. Know we know what is passed to file. Lets return to decrypted_1, our decrypted file.
+
+Let's open it.
+
+000011b9    int32_t main(int32_t argc, char** argv, char** envp)
+
+000011b9    {
+000011b9        int32_t argc_1 = argc;
+000011c8        void* fsbase;
+000011c8        int64_t rax = *(uint64_t*)((char*)fsbase + 0x28);
+000011e5        char rax_5 = *(uint8_t*)argv[1] - 0x57;
+000011f2        void* const var_28 = &data_2004;
+00001205        int64_t var_20 = &argv[1][1];
+00001223        sub_1318("tNGM\t\n\n", data_b1b8, rax_5, &var_28);
+0000123b        *(uint64_t*)((char*)fsbase + 0x28);
+0000123b        
+00001244        if (rax == *(uint64_t*)((char*)fsbase + 0x28))
+0000124c            return 0;
+0000124c        
+00001246        __stack_chk_fail();
+00001246        /* no return */
+000011b9    }
+
+00001318    int64_t sub_1318(void* arg1, int32_t arg2, char arg3, int64_t arg4)
+
+00001318    {
+00001318        sub_12c8(arg1, arg2, arg3);
+0000137a        return sub_137b(sub_124d(arg1, arg2, 1), &data_2005, arg4);
+00001318    }
+
+000012c8    int64_t sub_12c8(void* arg1, int32_t arg2, char arg3)
+
+000012c8    {
+000012c8        int32_t i;
+000012c8        
+00001312        for (i = 0; i < arg2; i += 1)
+00001312            *(uint8_t*)((char*)arg1 + (int64_t)i) ^= arg3;
+00001312        
+00001317        return i;
+000012c8    }
+
+
+Well, wee see basically the same thing here. You understand why is it called Matryoshka, right?
+
+For those who don't understand: Matryoshka is a toy that contains cmall copy of it in it. In this copy there is another copy, and it continues few times.
+
+Let's just decrypt it.
+
+Again, using script.
+
+def xor(byts, k): return bytes([x ^ k for x in byts])
+
+for x in range(255):
+    print(xor(b'tNGM\t\n\nr', x), x)
+
+b'\x7fELF\x02\x01\x01y' 11
+
+Okay.
+
+The addend is same here, it's 0x57. Lets add.
+
+>>> chr(0x57 + 11)
+'b'
+
+Second character is b.
+
+Lets decrypt our file again. It has got the same offset.
+
+lea     rdi, [rel data_4080]  {"tNGM\t\n\n"}
+
+with open("decrypted_1", "rb") as f:
+        k = 11
+        f.seek(0x3080)
+        d = f.read()
+        dd = list(d)
+        for x in range(len(dd)):
+                dd[x] ^= k
+        with open("decrypted_2", "wb") as f1:
+                f1.write(bytes(dd))
+
+Okay, let's open decrypted_2. 
+
+000011b9    int32_t main(int32_t argc, char** argv, char** envp)
+
+000011b9    {
+000011b9        int32_t argc_1 = argc;
+000011c8        void* fsbase;
+000011c8        int64_t rax = *(uint64_t*)((char*)fsbase + 0x28);
+000011e5        char rax_5 = *(uint8_t*)argv[1] - 0x30;
+000011f2        void* const var_28 = &data_2004;
+00001205        int64_t var_20 = &argv[1][1];
+00001223        sub_1318("|FOE", data_7910, rax_5, &var_28);
+0000123b        *(uint64_t*)((char*)fsbase + 0x28);
+0000123b        
+00001244        if (rax == *(uint64_t*)((char*)fsbase + 0x28))
+0000124c            return 0;
+0000124c        
+00001246        __stack_chk_fail();
+00001246        /* no return */
+000011b9    }
+
+00001318    int64_t sub_1318(void* arg1, int32_t arg2, char arg3, int64_t arg4)
+
+00001318    {
+00001318        sub_12c8(arg1, arg2, arg3);
+0000137a        return sub_137b(sub_124d(arg1, arg2, 1), &data_2005, arg4);
+00001318    }
+
+000012c8    int64_t sub_12c8(void* arg1, int32_t arg2, char arg3)
+
+000012c8    {
+000012c8        int32_t i;
+000012c8        
+00001312        for (i = 0; i < arg2; i += 1)
+00001312            *(uint8_t*)((char*)arg1 + (int64_t)i) ^= arg3;
+00001312        
+00001317        return i;
+000012c8    }
+
+
+Nothing but the key changed. i won't take your time, the key is 3, addend is 0x30 (char rax_5 = *(uint8_t*)argv[1] - 0x30;) and char is chr(0x30 + 3) = '3'.
+
+Let's decrypt and see it again. Offset is the same again.
+
+with open("decrypted_2", "rb") as f:
+        k = 3
+        f.seek(0x3080)
+        d = f.read()
+        dd = list(d)
+        for x in range(len(dd)):
+                dd[x] ^= k
+        with open("decrypted_3", "wb") as f1:
+                f1.write(bytes(dd))
+
+Okay, lets see it
+
+000011d9    int32_t main(int32_t argc, char** argv, char** envp)
+
+000011e1        int32_t argc_1 = argc
+000011e1        
+000011fe        if (atoi(nptr: argv[1]) == 9)
+0000120a            puts(str: "u win good job!!!!")
+0000120a        
+0000121c        return 0
+
+we see that it checks that number that is passed to argv[1] is 9 (atoi converts alphanumeric string to int). So the last character is 9
+
+The solution is: fb39.
+
+
+Thanks for reading.
+
+For those who wonder if i liked Binary Ninja: i'd say it's pretty good.
+

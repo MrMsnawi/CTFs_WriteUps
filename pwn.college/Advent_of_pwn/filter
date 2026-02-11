@@ -1,0 +1,1024 @@
+  aa0dac:	80 bd 00 fc ff ff cc 	cmp    BYTE PTR [rbp-0x400],0xcc
+  aa0db9:	80 bd 01 fc ff ff ca 	cmp    BYTE PTR [rbp-0x3ff],0xca
+  aa0dc6:	80 bd 02 fc ff ff c5 	cmp    BYTE PTR [rbp-0x3fe],0xc5
+  aa0dd3:	80 bd 03 fc ff ff 93 	cmp    BYTE PTR [rbp-0x3fd],0x93
+  aa0de0:	80 bd 04 fc ff ff 1d 	cmp    BYTE PTR [rbp-0x3fc],0x1d
+  aa0ded:	80 bd 05 fc ff ff 51 	cmp    BYTE PTR [rbp-0x3fb],0x51
+  aa0dfa:	80 bd 06 fc ff ff 9c 	cmp    BYTE PTR [rbp-0x3fa],0x9c
+  aa0e07:	80 bd 07 fc ff ff df 	cmp    BYTE PTR [rbp-0x3f9],0xdf
+  aa0e14:	80 bd 08 fc ff ff 31 	cmp    BYTE PTR [rbp-0x3f8],0x31
+  aa0e21:	80 bd 09 fc ff ff 53 	cmp    BYTE PTR [rbp-0x3f7],0x53
+  aa0e2e:	80 bd 0a fc ff ff 58 	cmp    BYTE PTR [rbp-0x3f6],0x58
+  aa0e3b:	80 bd 0b fc ff ff cd 	cmp    BYTE PTR [rbp-0x3f5],0xcd
+  aa0e48:	80 bd 0c fc ff ff 2c 	cmp    BYTE PTR [rbp-0x3f4],0x2c
+  aa0e55:	80 bd 0d fc ff ff 45 	cmp    BYTE PTR [rbp-0x3f3],0x45
+  aa0e62:	80 bd 0e fc ff ff a0 	cmp    BYTE PTR [rbp-0x3f2],0xa0
+  aa0e6f:	80 bd 0f fc ff ff a5 	cmp    BYTE PTR [rbp-0x3f1],0xa5
+  aa0e7c:	80 bd 10 fc ff ff eb 	cmp    BYTE PTR [rbp-0x3f0],0xeb
+  aa0e89:	80 bd 11 fc ff ff 01 	cmp    BYTE PTR [rbp-0x3ef],0x1
+  aa0e96:	80 bd 12 fc ff ff 43 	cmp    BYTE PTR [rbp-0x3ee],0x43
+  aa0ea3:	80 bd 13 fc ff ff 64 	cmp    BYTE PTR [rbp-0x3ed],0x64
+  aa0eb0:	80 bd 14 fc ff ff 89 	cmp    BYTE PTR [rbp-0x3ec],0x89
+  aa0ebd:	80 bd 15 fc ff ff af 	cmp    BYTE PTR [rbp-0x3eb],0xaf
+  aa0eca:	80 bd 16 fc ff ff 64 	cmp    BYTE PTR [rbp-0x3ea],0x64
+  aa0ed7:	80 bd 17 fc ff ff 19 	cmp    BYTE PTR [rbp-0x3e9],0x19
+  aa0ee4:	80 bd 18 fc ff ff ef 	cmp    BYTE PTR [rbp-0x3e8],0xef
+  aa0ef1:	80 bd 19 fc ff ff eb 	cmp    BYTE PTR [rbp-0x3e7],0xeb
+  aa0efe:	80 bd 1a fc ff ff 2b 	cmp    BYTE PTR [rbp-0x3e6],0x2b
+  aa0f0b:	80 bd 1b fc ff ff a3 	cmp    BYTE PTR [rbp-0x3e5],0xa3
+  aa0f18:	80 bd 1c fc ff ff 4e 	cmp    BYTE PTR [rbp-0x3e4],0x4e
+  aa0f25:	80 bd 1d fc ff ff dd 	cmp    BYTE PTR [rbp-0x3e3],0xdd
+  aa0f32:	80 bd 1e fc ff ff 35 	cmp    BYTE PTR [rbp-0x3e2],0x35
+  aa0f3f:	80 bd 1f fc ff ff e6 	cmp    BYTE PTR [rbp-0x3e1],0xe6
+  aa0f4c:	80 bd 20 fc ff ff c0 	cmp    BYTE PTR [rbp-0x3e0],0xc0
+  aa0f59:	80 bd 21 fc ff ff ff 	cmp    BYTE PTR [rbp-0x3df],0xff
+  aa0f66:	80 bd 22 fc ff ff 32 	cmp    BYTE PTR [rbp-0x3de],0x32
+  aa0f73:	80 bd 23 fc ff ff 04 	cmp    BYTE PTR [rbp-0x3dd],0x4
+  aa0f80:	80 bd 24 fc ff ff cf 	cmp    BYTE PTR [rbp-0x3dc],0xcf
+  aa0f8d:	80 bd 25 fc ff ff 24 	cmp    BYTE PTR [rbp-0x3db],0x24
+  aa0f9a:	80 bd 26 fc ff ff 42 	cmp    BYTE PTR [rbp-0x3da],0x42
+  aa0fa7:	80 bd 27 fc ff ff 1d 	cmp    BYTE PTR [rbp-0x3d9],0x1d
+  aa0fb4:	80 bd 28 fc ff ff 93 	cmp    BYTE PTR [rbp-0x3d8],0x93
+  aa0fc1:	80 bd 29 fc ff ff 88 	cmp    BYTE PTR [rbp-0x3d7],0x88
+  aa0fce:	80 bd 2a fc ff ff e8 	cmp    BYTE PTR [rbp-0x3d6],0xe8
+  aa0fdb:	80 bd 2b fc ff ff 18 	cmp    BYTE PTR [rbp-0x3d5],0x18
+  aa0fe8:	80 bd 2c fc ff ff 39 	cmp    BYTE PTR [rbp-0x3d4],0x39
+  aa0ff5:	80 bd 2d fc ff ff ef 	cmp    BYTE PTR [rbp-0x3d3],0xef
+  aa1002:	80 bd 2e fc ff ff 09 	cmp    BYTE PTR [rbp-0x3d2],0x9
+  aa100f:	80 bd 2f fc ff ff c5 	cmp    BYTE PTR [rbp-0x3d1],0xc5
+  aa101c:	80 bd 30 fc ff ff b9 	cmp    BYTE PTR [rbp-0x3d0],0xb9
+  aa1029:	80 bd 31 fc ff ff cb 	cmp    BYTE PTR [rbp-0x3cf],0xcb
+  aa1036:	80 bd 32 fc ff ff 48 	cmp    BYTE PTR [rbp-0x3ce],0x48
+  aa1043:	80 bd 33 fc ff ff 3e 	cmp    BYTE PTR [rbp-0x3cd],0x3e
+  aa1050:	80 bd 34 fc ff ff 5f 	cmp    BYTE PTR [rbp-0x3cc],0x5f
+  aa105d:	80 bd 35 fc ff ff d8 	cmp    BYTE PTR [rbp-0x3cb],0xd8
+  aa106a:	80 bd 36 fc ff ff d4 	cmp    BYTE PTR [rbp-0x3ca],0xd4
+  aa1077:	80 bd 37 fc ff ff 44 	cmp    BYTE PTR [rbp-0x3c9],0x44
+  aa1084:	80 bd 38 fc ff ff 13 	cmp    BYTE PTR [rbp-0x3c8],0x13
+  aa1091:	80 bd 39 fc ff ff 72 	cmp    BYTE PTR [rbp-0x3c7],0x72
+  aa109e:	80 bd 3a fc ff ff 09 	cmp    BYTE PTR [rbp-0x3c6],0x9
+  aa10ab:	80 bd 3b fc ff ff ed 	cmp    BYTE PTR [rbp-0x3c5],0xed
+  aa10b8:	80 bd 3c fc ff ff 24 	cmp    BYTE PTR [rbp-0x3c4],0x24
+  aa10c5:	80 bd 3d fc ff ff 5b 	cmp    BYTE PTR [rbp-0x3c3],0x5b
+  aa10d2:	80 bd 3e fc ff ff a5 	cmp    BYTE PTR [rbp-0x3c2],0xa5
+  aa10df:	80 bd 3f fc ff ff f1 	cmp    BYTE PTR [rbp-0x3c1],0xf1
+  aa10ec:	80 bd 40 fc ff ff 8b 	cmp    BYTE PTR [rbp-0x3c0],0x8b
+  aa10f9:	80 bd 41 fc ff ff 53 	cmp    BYTE PTR [rbp-0x3bf],0x53
+  aa1106:	80 bd 42 fc ff ff 49 	cmp    BYTE PTR [rbp-0x3be],0x49
+  aa1113:	80 bd 43 fc ff ff 28 	cmp    BYTE PTR [rbp-0x3bd],0x28
+  aa1120:	80 bd 44 fc ff ff 42 	cmp    BYTE PTR [rbp-0x3bc],0x42
+  aa112d:	80 bd 45 fc ff ff 27 	cmp    BYTE PTR [rbp-0x3bb],0x27
+  aa113a:	80 bd 46 fc ff ff cf 	cmp    BYTE PTR [rbp-0x3ba],0xcf
+  aa1147:	80 bd 47 fc ff ff f6 	cmp    BYTE PTR [rbp-0x3b9],0xf6
+  aa1154:	80 bd 48 fc ff ff e5 	cmp    BYTE PTR [rbp-0x3b8],0xe5
+  aa1161:	80 bd 49 fc ff ff 3f 	cmp    BYTE PTR [rbp-0x3b7],0x3f
+  aa116e:	80 bd 4a fc ff ff bb 	cmp    BYTE PTR [rbp-0x3b6],0xbb
+  aa117b:	80 bd 4b fc ff ff 5d 	cmp    BYTE PTR [rbp-0x3b5],0x5d
+  aa1188:	80 bd 4c fc ff ff 68 	cmp    BYTE PTR [rbp-0x3b4],0x68
+  aa1195:	80 bd 4d fc ff ff a9 	cmp    BYTE PTR [rbp-0x3b3],0xa9
+  aa11a2:	80 bd 4e fc ff ff 08 	cmp    BYTE PTR [rbp-0x3b2],0x8
+  aa11af:	80 bd 4f fc ff ff 4d 	cmp    BYTE PTR [rbp-0x3b1],0x4d
+  aa11bc:	80 bd 50 fc ff ff 59 	cmp    BYTE PTR [rbp-0x3b0],0x59
+  aa11c9:	80 bd 51 fc ff ff af 	cmp    BYTE PTR [rbp-0x3af],0xaf
+  aa11d6:	80 bd 52 fc ff ff 38 	cmp    BYTE PTR [rbp-0x3ae],0x38
+  aa11e3:	80 bd 53 fc ff ff 52 	cmp    BYTE PTR [rbp-0x3ad],0x52
+  aa11f0:	80 bd 54 fc ff ff 79 	cmp    BYTE PTR [rbp-0x3ac],0x79
+  aa11fd:	80 bd 55 fc ff ff 33 	cmp    BYTE PTR [rbp-0x3ab],0x33
+  aa120a:	80 bd 56 fc ff ff 35 	cmp    BYTE PTR [rbp-0x3aa],0x35
+  aa1217:	80 bd 57 fc ff ff c8 	cmp    BYTE PTR [rbp-0x3a9],0xc8
+  aa1224:	80 bd 58 fc ff ff b6 	cmp    BYTE PTR [rbp-0x3a8],0xb6
+  aa1231:	80 bd 59 fc ff ff 24 	cmp    BYTE PTR [rbp-0x3a7],0x24
+  aa123e:	80 bd 5a fc ff ff 3c 	cmp    BYTE PTR [rbp-0x3a6],0x3c
+  aa124b:	80 bd 5b fc ff ff 5e 	cmp    BYTE PTR [rbp-0x3a5],0x5e
+  aa1258:	80 bd 5c fc ff ff 62 	cmp    BYTE PTR [rbp-0x3a4],0x62
+  aa1265:	80 bd 5d fc ff ff 29 	cmp    BYTE PTR [rbp-0x3a3],0x29
+  aa1272:	80 bd 5e fc ff ff 97 	cmp    BYTE PTR [rbp-0x3a2],0x97
+  aa127f:	80 bd 5f fc ff ff 75 	cmp    BYTE PTR [rbp-0x3a1],0x75
+  aa128c:	80 bd 60 fc ff ff 41 	cmp    BYTE PTR [rbp-0x3a0],0x41
+  aa1299:	80 bd 61 fc ff ff ee 	cmp    BYTE PTR [rbp-0x39f],0xee
+  aa12a6:	80 bd 62 fc ff ff ab 	cmp    BYTE PTR [rbp-0x39e],0xab
+  aa12b3:	80 bd 63 fc ff ff cb 	cmp    BYTE PTR [rbp-0x39d],0xcb
+  aa12c0:	80 bd 64 fc ff ff 05 	cmp    BYTE PTR [rbp-0x39c],0x5
+  aa12cd:	80 bd 65 fc ff ff fe 	cmp    BYTE PTR [rbp-0x39b],0xfe
+  aa12da:	80 bd 66 fc ff ff 32 	cmp    BYTE PTR [rbp-0x39a],0x32
+  aa12e7:	80 bd 67 fc ff ff ab 	cmp    BYTE PTR [rbp-0x399],0xab
+  aa12f4:	80 bd 68 fc ff ff 9a 	cmp    BYTE PTR [rbp-0x398],0x9a
+  aa1301:	80 bd 69 fc ff ff 85 	cmp    BYTE PTR [rbp-0x397],0x85
+  aa130e:	80 bd 6a fc ff ff ae 	cmp    BYTE PTR [rbp-0x396],0xae
+  aa131b:	80 bd 6b fc ff ff a0 	cmp    BYTE PTR [rbp-0x395],0xa0
+  aa1328:	80 bd 6c fc ff ff f2 	cmp    BYTE PTR [rbp-0x394],0xf2
+  aa1335:	80 bd 6d fc ff ff 56 	cmp    BYTE PTR [rbp-0x393],0x56
+  aa1342:	80 bd 6e fc ff ff 71 	cmp    BYTE PTR [rbp-0x392],0x71
+  aa134f:	80 bd 6f fc ff ff f4 	cmp    BYTE PTR [rbp-0x391],0xf4
+  aa135c:	80 bd 70 fc ff ff fa 	cmp    BYTE PTR [rbp-0x390],0xfa
+  aa1369:	80 bd 71 fc ff ff 80 	cmp    BYTE PTR [rbp-0x38f],0x80
+  aa1376:	80 bd 72 fc ff ff 7f 	cmp    BYTE PTR [rbp-0x38e],0x7f
+  aa1383:	80 bd 73 fc ff ff 10 	cmp    BYTE PTR [rbp-0x38d],0x10
+  aa1390:	80 bd 74 fc ff ff ba 	cmp    BYTE PTR [rbp-0x38c],0xba
+  aa139d:	80 bd 75 fc ff ff 5c 	cmp    BYTE PTR [rbp-0x38b],0x5c
+  aa13aa:	80 bd 76 fc ff ff 88 	cmp    BYTE PTR [rbp-0x38a],0x88
+  aa13b7:	80 bd 77 fc ff ff 4f 	cmp    BYTE PTR [rbp-0x389],0x4f
+  aa13c4:	80 bd 78 fc ff ff 89 	cmp    BYTE PTR [rbp-0x388],0x89
+  aa13d1:	80 bd 79 fc ff ff 5a 	cmp    BYTE PTR [rbp-0x387],0x5a
+  aa13de:	80 bd 7a fc ff ff 93 	cmp    BYTE PTR [rbp-0x386],0x93
+  aa13eb:	80 bd 7b fc ff ff 49 	cmp    BYTE PTR [rbp-0x385],0x49
+  aa13f8:	80 bd 7c fc ff ff de 	cmp    BYTE PTR [rbp-0x384],0xde
+  aa1405:	80 bd 7d fc ff ff f0 	cmp    BYTE PTR [rbp-0x383],0xf0
+  aa1412:	80 bd 7e fc ff ff ab 	cmp    BYTE PTR [rbp-0x382],0xab
+  aa141f:	80 bd 7f fc ff ff 5e 	cmp    BYTE PTR [rbp-0x381],0x5e
+  aa142c:	80 bd 80 fc ff ff 57 	cmp    BYTE PTR [rbp-0x380],0x57
+  aa1439:	80 bd 81 fc ff ff 43 	cmp    BYTE PTR [rbp-0x37f],0x43
+  aa1446:	80 bd 82 fc ff ff 72 	cmp    BYTE PTR [rbp-0x37e],0x72
+  aa1453:	80 bd 83 fc ff ff ac 	cmp    BYTE PTR [rbp-0x37d],0xac
+  aa1460:	80 bd 84 fc ff ff 84 	cmp    BYTE PTR [rbp-0x37c],0x84
+  aa146d:	80 bd 85 fc ff ff 82 	cmp    BYTE PTR [rbp-0x37b],0x82
+  aa147a:	80 bd 86 fc ff ff 14 	cmp    BYTE PTR [rbp-0x37a],0x14
+  aa1487:	80 bd 87 fc ff ff 4a 	cmp    BYTE PTR [rbp-0x379],0x4a
+  aa1494:	80 bd 88 fc ff ff 9c 	cmp    BYTE PTR [rbp-0x378],0x9c
+  aa14a1:	80 bd 89 fc ff ff 8d 	cmp    BYTE PTR [rbp-0x377],0x8d
+  aa14ae:	80 bd 8a fc ff ff b3 	cmp    BYTE PTR [rbp-0x376],0xb3
+  aa14bb:	80 bd 8b fc ff ff cb 	cmp    BYTE PTR [rbp-0x375],0xcb
+  aa14c8:	80 bd 8c fc ff ff b4 	cmp    BYTE PTR [rbp-0x374],0xb4
+  aa14d5:	80 bd 8d fc ff ff e9 	cmp    BYTE PTR [rbp-0x373],0xe9
+  aa14e2:	80 bd 8e fc ff ff 5f 	cmp    BYTE PTR [rbp-0x372],0x5f
+  aa14ef:	80 bd 8f fc ff ff 88 	cmp    BYTE PTR [rbp-0x371],0x88
+  aa14fc:	80 bd 90 fc ff ff c5 	cmp    BYTE PTR [rbp-0x370],0xc5
+  aa1509:	80 bd 91 fc ff ff f8 	cmp    BYTE PTR [rbp-0x36f],0xf8
+  aa1516:	80 bd 92 fc ff ff b3 	cmp    BYTE PTR [rbp-0x36e],0xb3
+  aa1523:	80 bd 93 fc ff ff 39 	cmp    BYTE PTR [rbp-0x36d],0x39
+  aa1530:	80 bd 94 fc ff ff be 	cmp    BYTE PTR [rbp-0x36c],0xbe
+  aa153d:	80 bd 95 fc ff ff da 	cmp    BYTE PTR [rbp-0x36b],0xda
+  aa154a:	80 bd 96 fc ff ff 1f 	cmp    BYTE PTR [rbp-0x36a],0x1f
+  aa1557:	80 bd 97 fc ff ff d4 	cmp    BYTE PTR [rbp-0x369],0xd4
+  aa1564:	80 bd 98 fc ff ff 88 	cmp    BYTE PTR [rbp-0x368],0x88
+  aa1571:	80 bd 99 fc ff ff 9a 	cmp    BYTE PTR [rbp-0x367],0x9a
+  aa157e:	80 bd 9a fc ff ff 96 	cmp    BYTE PTR [rbp-0x366],0x96
+  aa158b:	80 bd 9b fc ff ff de 	cmp    BYTE PTR [rbp-0x365],0xde
+  aa1598:	80 bd 9c fc ff ff de 	cmp    BYTE PTR [rbp-0x364],0xde
+  aa15a5:	80 bd 9d fc ff ff 83 	cmp    BYTE PTR [rbp-0x363],0x83
+  aa15b2:	80 bd 9e fc ff ff 31 	cmp    BYTE PTR [rbp-0x362],0x31
+  aa15bf:	80 bd 9f fc ff ff ff 	cmp    BYTE PTR [rbp-0x361],0xff
+  aa15cc:	80 bd a0 fc ff ff 0c 	cmp    BYTE PTR [rbp-0x360],0xc
+  aa15d9:	80 bd a1 fc ff ff 45 	cmp    BYTE PTR [rbp-0x35f],0x45
+  aa15e6:	80 bd a2 fc ff ff 74 	cmp    BYTE PTR [rbp-0x35e],0x74
+  aa15f3:	80 bd a3 fc ff ff c5 	cmp    BYTE PTR [rbp-0x35d],0xc5
+  aa1600:	80 bd a4 fc ff ff f9 	cmp    BYTE PTR [rbp-0x35c],0xf9
+  aa160d:	80 bd a5 fc ff ff 17 	cmp    BYTE PTR [rbp-0x35b],0x17
+  aa161a:	80 bd a6 fc ff ff c0 	cmp    BYTE PTR [rbp-0x35a],0xc0
+  aa1627:	80 bd a7 fc ff ff d9 	cmp    BYTE PTR [rbp-0x359],0xd9
+  aa1634:	80 bd a8 fc ff ff e6 	cmp    BYTE PTR [rbp-0x358],0xe6
+  aa1641:	80 bd a9 fc ff ff cc 	cmp    BYTE PTR [rbp-0x357],0xcc
+  aa164e:	80 bd aa fc ff ff ad 	cmp    BYTE PTR [rbp-0x356],0xad
+  aa165b:	80 bd ab fc ff ff 0f 	cmp    BYTE PTR [rbp-0x355],0xf
+  aa1668:	80 bd ac fc ff ff 7e 	cmp    BYTE PTR [rbp-0x354],0x7e
+  aa1675:	80 bd ad fc ff ff d4 	cmp    BYTE PTR [rbp-0x353],0xd4
+  aa1682:	80 bd ae fc ff ff 98 	cmp    BYTE PTR [rbp-0x352],0x98
+  aa168f:	80 bd af fc ff ff 7d 	cmp    BYTE PTR [rbp-0x351],0x7d
+  aa169c:	80 bd b0 fc ff ff 0c 	cmp    BYTE PTR [rbp-0x350],0xc
+  aa16a9:	80 bd b1 fc ff ff 1c 	cmp    BYTE PTR [rbp-0x34f],0x1c
+  aa16b6:	80 bd b2 fc ff ff e9 	cmp    BYTE PTR [rbp-0x34e],0xe9
+  aa16c3:	80 bd b3 fc ff ff 22 	cmp    BYTE PTR [rbp-0x34d],0x22
+  aa16d0:	80 bd b4 fc ff ff 58 	cmp    BYTE PTR [rbp-0x34c],0x58
+  aa16dd:	80 bd b5 fc ff ff 58 	cmp    BYTE PTR [rbp-0x34b],0x58
+  aa16ea:	80 bd b6 fc ff ff 5f 	cmp    BYTE PTR [rbp-0x34a],0x5f
+  aa16f7:	80 bd b7 fc ff ff 7b 	cmp    BYTE PTR [rbp-0x349],0x7b
+  aa1704:	80 bd b8 fc ff ff fb 	cmp    BYTE PTR [rbp-0x348],0xfb
+  aa1711:	80 bd b9 fc ff ff 59 	cmp    BYTE PTR [rbp-0x347],0x59
+  aa171e:	80 bd ba fc ff ff 8f 	cmp    BYTE PTR [rbp-0x346],0x8f
+  aa172b:	80 bd bb fc ff ff 93 	cmp    BYTE PTR [rbp-0x345],0x93
+  aa1738:	80 bd bc fc ff ff a7 	cmp    BYTE PTR [rbp-0x344],0xa7
+  aa1745:	80 bd bd fc ff ff 38 	cmp    BYTE PTR [rbp-0x343],0x38
+  aa1752:	80 bd be fc ff ff f4 	cmp    BYTE PTR [rbp-0x342],0xf4
+  aa175f:	80 bd bf fc ff ff 29 	cmp    BYTE PTR [rbp-0x341],0x29
+  aa176c:	80 bd c0 fc ff ff 3f 	cmp    BYTE PTR [rbp-0x340],0x3f
+  aa1779:	80 bd c1 fc ff ff e2 	cmp    BYTE PTR [rbp-0x33f],0xe2
+  aa1786:	80 bd c2 fc ff ff 52 	cmp    BYTE PTR [rbp-0x33e],0x52
+  aa1793:	80 bd c3 fc ff ff b8 	cmp    BYTE PTR [rbp-0x33d],0xb8
+  aa17a0:	80 bd c4 fc ff ff f8 	cmp    BYTE PTR [rbp-0x33c],0xf8
+  aa17ad:	80 bd c5 fc ff ff 8e 	cmp    BYTE PTR [rbp-0x33b],0x8e
+  aa17ba:	80 bd c6 fc ff ff 2b 	cmp    BYTE PTR [rbp-0x33a],0x2b
+  aa17c7:	80 bd c7 fc ff ff 83 	cmp    BYTE PTR [rbp-0x339],0x83
+  aa17d4:	80 bd c8 fc ff ff 08 	cmp    BYTE PTR [rbp-0x338],0x8
+  aa17e1:	80 bd c9 fc ff ff 09 	cmp    BYTE PTR [rbp-0x337],0x9
+  aa17ee:	80 bd ca fc ff ff 6d 	cmp    BYTE PTR [rbp-0x336],0x6d
+  aa17fb:	80 bd cb fc ff ff d6 	cmp    BYTE PTR [rbp-0x335],0xd6
+  aa1808:	80 bd cc fc ff ff 33 	cmp    BYTE PTR [rbp-0x334],0x33
+  aa1815:	80 bd cd fc ff ff e6 	cmp    BYTE PTR [rbp-0x333],0xe6
+  aa1822:	80 bd ce fc ff ff 87 	cmp    BYTE PTR [rbp-0x332],0x87
+  aa182f:	80 bd cf fc ff ff a0 	cmp    BYTE PTR [rbp-0x331],0xa0
+  aa183c:	80 bd d0 fc ff ff 09 	cmp    BYTE PTR [rbp-0x330],0x9
+  aa1849:	80 bd d1 fc ff ff d8 	cmp    BYTE PTR [rbp-0x32f],0xd8
+  aa1856:	80 bd d2 fc ff ff b7 	cmp    BYTE PTR [rbp-0x32e],0xb7
+  aa1863:	80 bd d3 fc ff ff a8 	cmp    BYTE PTR [rbp-0x32d],0xa8
+  aa1870:	80 bd d4 fc ff ff 96 	cmp    BYTE PTR [rbp-0x32c],0x96
+  aa187d:	80 bd d5 fc ff ff 1e 	cmp    BYTE PTR [rbp-0x32b],0x1e
+  aa188a:	80 bd d6 fc ff ff 7c 	cmp    BYTE PTR [rbp-0x32a],0x7c
+  aa1897:	80 bd d7 fc ff ff b7 	cmp    BYTE PTR [rbp-0x329],0xb7
+  aa18a4:	80 bd d8 fc ff ff 98 	cmp    BYTE PTR [rbp-0x328],0x98
+  aa18b1:	80 bd d9 fc ff ff 20 	cmp    BYTE PTR [rbp-0x327],0x20
+  aa18be:	80 bd da fc ff ff 9c 	cmp    BYTE PTR [rbp-0x326],0x9c
+  aa18cb:	80 bd db fc ff ff 16 	cmp    BYTE PTR [rbp-0x325],0x16
+  aa18d8:	80 bd dc fc ff ff a7 	cmp    BYTE PTR [rbp-0x324],0xa7
+  aa18e5:	80 bd dd fc ff ff b8 	cmp    BYTE PTR [rbp-0x323],0xb8
+  aa18f2:	80 bd de fc ff ff 6f 	cmp    BYTE PTR [rbp-0x322],0x6f
+  aa18ff:	80 bd df fc ff ff 09 	cmp    BYTE PTR [rbp-0x321],0x9
+  aa190c:	80 bd e0 fc ff ff ce 	cmp    BYTE PTR [rbp-0x320],0xce
+  aa1919:	80 bd e1 fc ff ff c0 	cmp    BYTE PTR [rbp-0x31f],0xc0
+  aa1926:	80 bd e2 fc ff ff 98 	cmp    BYTE PTR [rbp-0x31e],0x98
+  aa1933:	80 bd e3 fc ff ff 3a 	cmp    BYTE PTR [rbp-0x31d],0x3a
+  aa1940:	80 bd e4 fc ff ff 33 	cmp    BYTE PTR [rbp-0x31c],0x33
+  aa194d:	80 bd e5 fc ff ff 58 	cmp    BYTE PTR [rbp-0x31b],0x58
+  aa195a:	80 bd e6 fc ff ff fb 	cmp    BYTE PTR [rbp-0x31a],0xfb
+  aa1967:	80 bd e7 fc ff ff 2e 	cmp    BYTE PTR [rbp-0x319],0x2e
+  aa1974:	80 bd e8 fc ff ff 90 	cmp    BYTE PTR [rbp-0x318],0x90
+  aa1981:	80 bd e9 fc ff ff 2d 	cmp    BYTE PTR [rbp-0x317],0x2d
+  aa198e:	80 bd ea fc ff ff c0 	cmp    BYTE PTR [rbp-0x316],0xc0
+  aa199b:	80 bd eb fc ff ff 99 	cmp    BYTE PTR [rbp-0x315],0x99
+  aa19a8:	80 bd ec fc ff ff b6 	cmp    BYTE PTR [rbp-0x314],0xb6
+  aa19b5:	80 bd ed fc ff ff 7a 	cmp    BYTE PTR [rbp-0x313],0x7a
+  aa19c2:	80 bd ee fc ff ff 44 	cmp    BYTE PTR [rbp-0x312],0x44
+  aa19cf:	80 bd ef fc ff ff 2e 	cmp    BYTE PTR [rbp-0x311],0x2e
+  aa19dc:	80 bd f0 fc ff ff f4 	cmp    BYTE PTR [rbp-0x310],0xf4
+  aa19e9:	80 bd f1 fc ff ff b4 	cmp    BYTE PTR [rbp-0x30f],0xb4
+  aa19f6:	80 bd f2 fc ff ff fa 	cmp    BYTE PTR [rbp-0x30e],0xfa
+  aa1a03:	80 bd f3 fc ff ff 51 	cmp    BYTE PTR [rbp-0x30d],0x51
+  aa1a10:	80 bd f4 fc ff ff 7f 	cmp    BYTE PTR [rbp-0x30c],0x7f
+  aa1a1d:	80 bd f5 fc ff ff 9b 	cmp    BYTE PTR [rbp-0x30b],0x9b
+  aa1a2a:	80 bd f6 fc ff ff 46 	cmp    BYTE PTR [rbp-0x30a],0x46
+  aa1a37:	80 bd f7 fc ff ff 85 	cmp    BYTE PTR [rbp-0x309],0x85
+  aa1a44:	80 bd f8 fc ff ff 3a 	cmp    BYTE PTR [rbp-0x308],0x3a
+  aa1a51:	80 bd f9 fc ff ff 33 	cmp    BYTE PTR [rbp-0x307],0x33
+  aa1a5e:	80 bd fa fc ff ff 76 	cmp    BYTE PTR [rbp-0x306],0x76
+  aa1a6b:	80 bd fb fc ff ff 06 	cmp    BYTE PTR [rbp-0x305],0x6
+  aa1a78:	80 bd fc fc ff ff 2b 	cmp    BYTE PTR [rbp-0x304],0x2b
+  aa1a85:	80 bd fd fc ff ff 48 	cmp    BYTE PTR [rbp-0x303],0x48
+  aa1a92:	80 bd fe fc ff ff 7c 	cmp    BYTE PTR [rbp-0x302],0x7c
+  aa1a9f:	80 bd ff fc ff ff d8 	cmp    BYTE PTR [rbp-0x301],0xd8
+  aa1aac:	80 bd 00 fd ff ff 62 	cmp    BYTE PTR [rbp-0x300],0x62
+  aa1ab9:	80 bd 01 fd ff ff 57 	cmp    BYTE PTR [rbp-0x2ff],0x57
+  aa1ac6:	80 bd 02 fd ff ff c8 	cmp    BYTE PTR [rbp-0x2fe],0xc8
+  aa1ad3:	80 bd 03 fd ff ff 61 	cmp    BYTE PTR [rbp-0x2fd],0x61
+  aa1ae0:	80 bd 04 fd ff ff 2c 	cmp    BYTE PTR [rbp-0x2fc],0x2c
+  aa1aed:	80 bd 05 fd ff ff 8e 	cmp    BYTE PTR [rbp-0x2fb],0x8e
+  aa1afa:	80 bd 06 fd ff ff 48 	cmp    BYTE PTR [rbp-0x2fa],0x48
+  aa1b07:	80 bd 07 fd ff ff a8 	cmp    BYTE PTR [rbp-0x2f9],0xa8
+  aa1b14:	80 bd 08 fd ff ff a2 	cmp    BYTE PTR [rbp-0x2f8],0xa2
+  aa1b21:	80 bd 09 fd ff ff 75 	cmp    BYTE PTR [rbp-0x2f7],0x75
+  aa1b2e:	80 bd 0a fd ff ff 49 	cmp    BYTE PTR [rbp-0x2f6],0x49
+  aa1b3b:	80 bd 0b fd ff ff bb 	cmp    BYTE PTR [rbp-0x2f5],0xbb
+  aa1b48:	80 bd 0c fd ff ff a6 	cmp    BYTE PTR [rbp-0x2f4],0xa6
+  aa1b55:	80 bd 0d fd ff ff 5c 	cmp    BYTE PTR [rbp-0x2f3],0x5c
+  aa1b62:	80 bd 0e fd ff ff 73 	cmp    BYTE PTR [rbp-0x2f2],0x73
+  aa1b6f:	80 bd 0f fd ff ff 71 	cmp    BYTE PTR [rbp-0x2f1],0x71
+  aa1b7c:	80 bd 10 fd ff ff a8 	cmp    BYTE PTR [rbp-0x2f0],0xa8
+  aa1b89:	80 bd 11 fd ff ff 29 	cmp    BYTE PTR [rbp-0x2ef],0x29
+  aa1b96:	80 bd 12 fd ff ff 76 	cmp    BYTE PTR [rbp-0x2ee],0x76
+  aa1ba3:	80 bd 13 fd ff ff f5 	cmp    BYTE PTR [rbp-0x2ed],0xf5
+  aa1bb0:	80 bd 14 fd ff ff 54 	cmp    BYTE PTR [rbp-0x2ec],0x54
+  aa1bbd:	80 bd 15 fd ff ff 56 	cmp    BYTE PTR [rbp-0x2eb],0x56
+  aa1bca:	80 bd 16 fd ff ff cb 	cmp    BYTE PTR [rbp-0x2ea],0xcb
+  aa1bd7:	80 bd 17 fd ff ff 7d 	cmp    BYTE PTR [rbp-0x2e9],0x7d
+  aa1be4:	80 bd 18 fd ff ff f4 	cmp    BYTE PTR [rbp-0x2e8],0xf4
+  aa1bf1:	80 bd 19 fd ff ff ea 	cmp    BYTE PTR [rbp-0x2e7],0xea
+  aa1bfe:	80 bd 1a fd ff ff 86 	cmp    BYTE PTR [rbp-0x2e6],0x86
+  aa1c0b:	80 bd 1b fd ff ff ef 	cmp    BYTE PTR [rbp-0x2e5],0xef
+  aa1c18:	80 bd 1c fd ff ff a8 	cmp    BYTE PTR [rbp-0x2e4],0xa8
+  aa1c25:	80 bd 1d fd ff ff fe 	cmp    BYTE PTR [rbp-0x2e3],0xfe
+  aa1c32:	80 bd 1e fd ff ff 78 	cmp    BYTE PTR [rbp-0x2e2],0x78
+  aa1c3f:	80 bd 1f fd ff ff d3 	cmp    BYTE PTR [rbp-0x2e1],0xd3
+  aa1c4c:	80 bd 20 fd ff ff 5c 	cmp    BYTE PTR [rbp-0x2e0],0x5c
+  aa1c59:	80 bd 21 fd ff ff 75 	cmp    BYTE PTR [rbp-0x2df],0x75
+  aa1c66:	80 bd 22 fd ff ff 9a 	cmp    BYTE PTR [rbp-0x2de],0x9a
+  aa1c73:	80 bd 23 fd ff ff b3 	cmp    BYTE PTR [rbp-0x2dd],0xb3
+  aa1c80:	80 bd 24 fd ff ff 8b 	cmp    BYTE PTR [rbp-0x2dc],0x8b
+  aa1c8d:	80 bd 25 fd ff ff c4 	cmp    BYTE PTR [rbp-0x2db],0xc4
+  aa1c9a:	80 bd 26 fd ff ff f6 	cmp    BYTE PTR [rbp-0x2da],0xf6
+  aa1ca7:	80 bd 27 fd ff ff 36 	cmp    BYTE PTR [rbp-0x2d9],0x36
+  aa1cb4:	80 bd 28 fd ff ff 3a 	cmp    BYTE PTR [rbp-0x2d8],0x3a
+  aa1cc1:	80 bd 29 fd ff ff a9 	cmp    BYTE PTR [rbp-0x2d7],0xa9
+  aa1cce:	80 bd 2a fd ff ff 5a 	cmp    BYTE PTR [rbp-0x2d6],0x5a
+  aa1cdb:	80 bd 2b fd ff ff b5 	cmp    BYTE PTR [rbp-0x2d5],0xb5
+  aa1ce8:	80 bd 2c fd ff ff ce 	cmp    BYTE PTR [rbp-0x2d4],0xce
+  aa1cf5:	80 bd 2d fd ff ff f7 	cmp    BYTE PTR [rbp-0x2d3],0xf7
+  aa1d02:	80 bd 2e fd ff ff 6a 	cmp    BYTE PTR [rbp-0x2d2],0x6a
+  aa1d0f:	80 bd 2f fd ff ff 42 	cmp    BYTE PTR [rbp-0x2d1],0x42
+  aa1d1c:	80 bd 30 fd ff ff 88 	cmp    BYTE PTR [rbp-0x2d0],0x88
+  aa1d29:	80 bd 31 fd ff ff 89 	cmp    BYTE PTR [rbp-0x2cf],0x89
+  aa1d36:	80 bd 32 fd ff ff 73 	cmp    BYTE PTR [rbp-0x2ce],0x73
+  aa1d43:	80 bd 33 fd ff ff 86 	cmp    BYTE PTR [rbp-0x2cd],0x86
+  aa1d50:	80 bd 34 fd ff ff 36 	cmp    BYTE PTR [rbp-0x2cc],0x36
+  aa1d5d:	80 bd 35 fd ff ff b9 	cmp    BYTE PTR [rbp-0x2cb],0xb9
+  aa1d6a:	80 bd 36 fd ff ff 17 	cmp    BYTE PTR [rbp-0x2ca],0x17
+  aa1d77:	80 bd 37 fd ff ff 14 	cmp    BYTE PTR [rbp-0x2c9],0x14
+  aa1d84:	80 bd 38 fd ff ff 5a 	cmp    BYTE PTR [rbp-0x2c8],0x5a
+  aa1d91:	80 bd 39 fd ff ff b9 	cmp    BYTE PTR [rbp-0x2c7],0xb9
+  aa1d9e:	80 bd 3a fd ff ff 17 	cmp    BYTE PTR [rbp-0x2c6],0x17
+  aa1dab:	80 bd 3b fd ff ff 1c 	cmp    BYTE PTR [rbp-0x2c5],0x1c
+  aa1db8:	80 bd 3c fd ff ff b7 	cmp    BYTE PTR [rbp-0x2c4],0xb7
+  aa1dc5:	80 bd 3d fd ff ff a4 	cmp    BYTE PTR [rbp-0x2c3],0xa4
+  aa1dd2:	80 bd 3e fd ff ff c2 	cmp    BYTE PTR [rbp-0x2c2],0xc2
+  aa1ddf:	80 bd 3f fd ff ff eb 	cmp    BYTE PTR [rbp-0x2c1],0xeb
+  aa1dec:	80 bd 40 fd ff ff 16 	cmp    BYTE PTR [rbp-0x2c0],0x16
+  aa1df9:	80 bd 41 fd ff ff 62 	cmp    BYTE PTR [rbp-0x2bf],0x62
+  aa1e06:	80 bd 42 fd ff ff 80 	cmp    BYTE PTR [rbp-0x2be],0x80
+  aa1e13:	80 bd 43 fd ff ff 5b 	cmp    BYTE PTR [rbp-0x2bd],0x5b
+  aa1e20:	80 bd 44 fd ff ff f5 	cmp    BYTE PTR [rbp-0x2bc],0xf5
+  aa1e2d:	80 bd 45 fd ff ff c3 	cmp    BYTE PTR [rbp-0x2bb],0xc3
+  aa1e3a:	80 bd 46 fd ff ff c2 	cmp    BYTE PTR [rbp-0x2ba],0xc2
+  aa1e47:	80 bd 47 fd ff ff 79 	cmp    BYTE PTR [rbp-0x2b9],0x79
+  aa1e54:	80 bd 48 fd ff ff af 	cmp    BYTE PTR [rbp-0x2b8],0xaf
+  aa1e61:	80 bd 49 fd ff ff 2f 	cmp    BYTE PTR [rbp-0x2b7],0x2f
+  aa1e6e:	80 bd 4a fd ff ff b2 	cmp    BYTE PTR [rbp-0x2b6],0xb2
+  aa1e7b:	80 bd 4b fd ff ff b2 	cmp    BYTE PTR [rbp-0x2b5],0xb2
+  aa1e88:	80 bd 4c fd ff ff 98 	cmp    BYTE PTR [rbp-0x2b4],0x98
+  aa1e95:	80 bd 4d fd ff ff 36 	cmp    BYTE PTR [rbp-0x2b3],0x36
+  aa1ea2:	80 bd 4e fd ff ff 99 	cmp    BYTE PTR [rbp-0x2b2],0x99
+  aa1eaf:	80 bd 4f fd ff ff 49 	cmp    BYTE PTR [rbp-0x2b1],0x49
+  aa1ebc:	80 bd 50 fd ff ff 34 	cmp    BYTE PTR [rbp-0x2b0],0x34
+  aa1ec9:	80 bd 51 fd ff ff 7a 	cmp    BYTE PTR [rbp-0x2af],0x7a
+  aa1ed6:	80 bd 52 fd ff ff e7 	cmp    BYTE PTR [rbp-0x2ae],0xe7
+  aa1ee3:	80 bd 53 fd ff ff a9 	cmp    BYTE PTR [rbp-0x2ad],0xa9
+  aa1ef0:	80 bd 54 fd ff ff a7 	cmp    BYTE PTR [rbp-0x2ac],0xa7
+  aa1efd:	80 bd 55 fd ff ff 30 	cmp    BYTE PTR [rbp-0x2ab],0x30
+  aa1f0a:	80 bd 56 fd ff ff bb 	cmp    BYTE PTR [rbp-0x2aa],0xbb
+  aa1f17:	80 bd 57 fd ff ff 9a 	cmp    BYTE PTR [rbp-0x2a9],0x9a
+  aa1f24:	80 bd 58 fd ff ff db 	cmp    BYTE PTR [rbp-0x2a8],0xdb
+  aa1f31:	80 bd 59 fd ff ff 66 	cmp    BYTE PTR [rbp-0x2a7],0x66
+  aa1f3e:	80 bd 5a fd ff ff e2 	cmp    BYTE PTR [rbp-0x2a6],0xe2
+  aa1f4b:	80 bd 5b fd ff ff 6f 	cmp    BYTE PTR [rbp-0x2a5],0x6f
+  aa1f58:	80 bd 5c fd ff ff 43 	cmp    BYTE PTR [rbp-0x2a4],0x43
+  aa1f65:	80 bd 5d fd ff ff 8d 	cmp    BYTE PTR [rbp-0x2a3],0x8d
+  aa1f72:	80 bd 5e fd ff ff af 	cmp    BYTE PTR [rbp-0x2a2],0xaf
+  aa1f7f:	80 bd 5f fd ff ff 5a 	cmp    BYTE PTR [rbp-0x2a1],0x5a
+  aa1f8c:	80 bd 60 fd ff ff 9c 	cmp    BYTE PTR [rbp-0x2a0],0x9c
+  aa1f99:	80 bd 61 fd ff ff a0 	cmp    BYTE PTR [rbp-0x29f],0xa0
+  aa1fa6:	80 bd 62 fd ff ff 3e 	cmp    BYTE PTR [rbp-0x29e],0x3e
+  aa1fb3:	80 bd 63 fd ff ff cd 	cmp    BYTE PTR [rbp-0x29d],0xcd
+  aa1fc0:	80 bd 64 fd ff ff b8 	cmp    BYTE PTR [rbp-0x29c],0xb8
+  aa1fcd:	80 bd 65 fd ff ff 6e 	cmp    BYTE PTR [rbp-0x29b],0x6e
+  aa1fda:	80 bd 66 fd ff ff 90 	cmp    BYTE PTR [rbp-0x29a],0x90
+  aa1fe7:	80 bd 67 fd ff ff 61 	cmp    BYTE PTR [rbp-0x299],0x61
+  aa1ff4:	80 bd 68 fd ff ff fc 	cmp    BYTE PTR [rbp-0x298],0xfc
+  aa2001:	80 bd 69 fd ff ff ee 	cmp    BYTE PTR [rbp-0x297],0xee
+  aa200e:	80 bd 6a fd ff ff d1 	cmp    BYTE PTR [rbp-0x296],0xd1
+  aa201b:	80 bd 6b fd ff ff 51 	cmp    BYTE PTR [rbp-0x295],0x51
+  aa2028:	80 bd 6c fd ff ff 98 	cmp    BYTE PTR [rbp-0x294],0x98
+  aa2035:	80 bd 6d fd ff ff 79 	cmp    BYTE PTR [rbp-0x293],0x79
+  aa2042:	80 bd 6e fd ff ff 06 	cmp    BYTE PTR [rbp-0x292],0x6
+  aa204f:	80 bd 6f fd ff ff 1f 	cmp    BYTE PTR [rbp-0x291],0x1f
+  aa205c:	80 bd 70 fd ff ff 86 	cmp    BYTE PTR [rbp-0x290],0x86
+  aa2069:	80 bd 71 fd ff ff 44 	cmp    BYTE PTR [rbp-0x28f],0x44
+  aa2076:	80 bd 72 fd ff ff a1 	cmp    BYTE PTR [rbp-0x28e],0xa1
+  aa2083:	80 bd 73 fd ff ff 07 	cmp    BYTE PTR [rbp-0x28d],0x7
+  aa2090:	80 bd 74 fd ff ff 41 	cmp    BYTE PTR [rbp-0x28c],0x41
+  aa209d:	80 bd 75 fd ff ff f4 	cmp    BYTE PTR [rbp-0x28b],0xf4
+  aa20aa:	80 bd 76 fd ff ff fb 	cmp    BYTE PTR [rbp-0x28a],0xfb
+  aa20b7:	80 bd 77 fd ff ff 7e 	cmp    BYTE PTR [rbp-0x289],0x7e
+  aa20c4:	80 bd 78 fd ff ff 01 	cmp    BYTE PTR [rbp-0x288],0x1
+  aa20d1:	80 bd 79 fd ff ff 94 	cmp    BYTE PTR [rbp-0x287],0x94
+  aa20de:	80 bd 7a fd ff ff c6 	cmp    BYTE PTR [rbp-0x286],0xc6
+  aa20eb:	80 bd 7b fd ff ff 09 	cmp    BYTE PTR [rbp-0x285],0x9
+  aa20f8:	80 bd 7c fd ff ff 58 	cmp    BYTE PTR [rbp-0x284],0x58
+  aa2105:	80 bd 7d fd ff ff 0e 	cmp    BYTE PTR [rbp-0x283],0xe
+  aa2112:	80 bd 7e fd ff ff cd 	cmp    BYTE PTR [rbp-0x282],0xcd
+  aa211f:	80 bd 7f fd ff ff 96 	cmp    BYTE PTR [rbp-0x281],0x96
+  aa212c:	80 bd 80 fd ff ff 39 	cmp    BYTE PTR [rbp-0x280],0x39
+  aa2139:	80 bd 81 fd ff ff d2 	cmp    BYTE PTR [rbp-0x27f],0xd2
+  aa2146:	80 bd 82 fd ff ff 77 	cmp    BYTE PTR [rbp-0x27e],0x77
+  aa2153:	80 bd 83 fd ff ff a7 	cmp    BYTE PTR [rbp-0x27d],0xa7
+  aa2160:	80 bd 84 fd ff ff 20 	cmp    BYTE PTR [rbp-0x27c],0x20
+  aa216d:	80 bd 85 fd ff ff 76 	cmp    BYTE PTR [rbp-0x27b],0x76
+  aa217a:	80 bd 86 fd ff ff e9 	cmp    BYTE PTR [rbp-0x27a],0xe9
+  aa2187:	80 bd 87 fd ff ff 65 	cmp    BYTE PTR [rbp-0x279],0x65
+  aa2194:	80 bd 88 fd ff ff 45 	cmp    BYTE PTR [rbp-0x278],0x45
+  aa21a1:	80 bd 89 fd ff ff 79 	cmp    BYTE PTR [rbp-0x277],0x79
+  aa21ae:	80 bd 8a fd ff ff eb 	cmp    BYTE PTR [rbp-0x276],0xeb
+  aa21bb:	80 bd 8b fd ff ff 4b 	cmp    BYTE PTR [rbp-0x275],0x4b
+  aa21c8:	80 bd 8c fd ff ff 79 	cmp    BYTE PTR [rbp-0x274],0x79
+  aa21d5:	80 bd 8d fd ff ff bf 	cmp    BYTE PTR [rbp-0x273],0xbf
+  aa21e2:	80 bd 8e fd ff ff f0 	cmp    BYTE PTR [rbp-0x272],0xf0
+  aa21ef:	80 bd 8f fd ff ff 60 	cmp    BYTE PTR [rbp-0x271],0x60
+  aa21fc:	80 bd 90 fd ff ff 95 	cmp    BYTE PTR [rbp-0x270],0x95
+  aa2209:	80 bd 91 fd ff ff 20 	cmp    BYTE PTR [rbp-0x26f],0x20
+  aa2216:	80 bd 92 fd ff ff bb 	cmp    BYTE PTR [rbp-0x26e],0xbb
+  aa2223:	80 bd 93 fd ff ff 87 	cmp    BYTE PTR [rbp-0x26d],0x87
+  aa2230:	80 bd 94 fd ff ff be 	cmp    BYTE PTR [rbp-0x26c],0xbe
+  aa223d:	80 bd 95 fd ff ff 11 	cmp    BYTE PTR [rbp-0x26b],0x11
+  aa224a:	80 bd 96 fd ff ff f4 	cmp    BYTE PTR [rbp-0x26a],0xf4
+  aa2257:	80 bd 97 fd ff ff 15 	cmp    BYTE PTR [rbp-0x269],0x15
+  aa2264:	80 bd 98 fd ff ff d5 	cmp    BYTE PTR [rbp-0x268],0xd5
+  aa2271:	80 bd 99 fd ff ff fd 	cmp    BYTE PTR [rbp-0x267],0xfd
+  aa227e:	80 bd 9a fd ff ff 72 	cmp    BYTE PTR [rbp-0x266],0x72
+  aa228b:	80 bd 9b fd ff ff 3d 	cmp    BYTE PTR [rbp-0x265],0x3d
+  aa2298:	80 bd 9c fd ff ff a1 	cmp    BYTE PTR [rbp-0x264],0xa1
+  aa22a5:	80 bd 9d fd ff ff 90 	cmp    BYTE PTR [rbp-0x263],0x90
+  aa22b2:	80 bd 9e fd ff ff b6 	cmp    BYTE PTR [rbp-0x262],0xb6
+  aa22bf:	80 bd 9f fd ff ff f0 	cmp    BYTE PTR [rbp-0x261],0xf0
+  aa22cc:	80 bd a0 fd ff ff 7c 	cmp    BYTE PTR [rbp-0x260],0x7c
+  aa22d9:	80 bd a1 fd ff ff 5e 	cmp    BYTE PTR [rbp-0x25f],0x5e
+  aa22e6:	80 bd a2 fd ff ff df 	cmp    BYTE PTR [rbp-0x25e],0xdf
+  aa22f3:	80 bd a3 fd ff ff ad 	cmp    BYTE PTR [rbp-0x25d],0xad
+  aa2300:	80 bd a4 fd ff ff 90 	cmp    BYTE PTR [rbp-0x25c],0x90
+  aa230d:	80 bd a5 fd ff ff da 	cmp    BYTE PTR [rbp-0x25b],0xda
+  aa231a:	80 bd a6 fd ff ff 0b 	cmp    BYTE PTR [rbp-0x25a],0xb
+  aa2327:	80 bd a7 fd ff ff 0f 	cmp    BYTE PTR [rbp-0x259],0xf
+  aa2334:	80 bd a8 fd ff ff f3 	cmp    BYTE PTR [rbp-0x258],0xf3
+  aa2341:	80 bd a9 fd ff ff 5d 	cmp    BYTE PTR [rbp-0x257],0x5d
+  aa234e:	80 bd aa fd ff ff 15 	cmp    BYTE PTR [rbp-0x256],0x15
+  aa235b:	80 bd ab fd ff ff 67 	cmp    BYTE PTR [rbp-0x255],0x67
+  aa2368:	80 bd ac fd ff ff ab 	cmp    BYTE PTR [rbp-0x254],0xab
+  aa2375:	80 bd ad fd ff ff 6b 	cmp    BYTE PTR [rbp-0x253],0x6b
+  aa2382:	80 bd ae fd ff ff cd 	cmp    BYTE PTR [rbp-0x252],0xcd
+  aa238f:	80 bd af fd ff ff b4 	cmp    BYTE PTR [rbp-0x251],0xb4
+  aa239c:	80 bd b0 fd ff ff c0 	cmp    BYTE PTR [rbp-0x250],0xc0
+  aa23a9:	80 bd b1 fd ff ff 21 	cmp    BYTE PTR [rbp-0x24f],0x21
+  aa23b6:	80 bd b2 fd ff ff e2 	cmp    BYTE PTR [rbp-0x24e],0xe2
+  aa23c3:	80 bd b3 fd ff ff 8f 	cmp    BYTE PTR [rbp-0x24d],0x8f
+  aa23d0:	80 bd b4 fd ff ff 96 	cmp    BYTE PTR [rbp-0x24c],0x96
+  aa23dd:	80 bd b5 fd ff ff 0d 	cmp    BYTE PTR [rbp-0x24b],0xd
+  aa23ea:	80 bd b6 fd ff ff 5e 	cmp    BYTE PTR [rbp-0x24a],0x5e
+  aa23f7:	80 bd b7 fd ff ff 3d 	cmp    BYTE PTR [rbp-0x249],0x3d
+  aa2404:	80 bd b8 fd ff ff d9 	cmp    BYTE PTR [rbp-0x248],0xd9
+  aa2411:	80 bd b9 fd ff ff 07 	cmp    BYTE PTR [rbp-0x247],0x7
+  aa241e:	80 bd ba fd ff ff 63 	cmp    BYTE PTR [rbp-0x246],0x63
+  aa242b:	80 bd bb fd ff ff d3 	cmp    BYTE PTR [rbp-0x245],0xd3
+  aa2438:	80 bd bc fd ff ff 01 	cmp    BYTE PTR [rbp-0x244],0x1
+  aa2445:	80 bd bd fd ff ff d3 	cmp    BYTE PTR [rbp-0x243],0xd3
+  aa2452:	80 bd be fd ff ff 8f 	cmp    BYTE PTR [rbp-0x242],0x8f
+  aa245f:	80 bd bf fd ff ff fb 	cmp    BYTE PTR [rbp-0x241],0xfb
+  aa246c:	80 bd c0 fd ff ff d9 	cmp    BYTE PTR [rbp-0x240],0xd9
+  aa2479:	80 bd c1 fd ff ff 3e 	cmp    BYTE PTR [rbp-0x23f],0x3e
+  aa2486:	80 bd c2 fd ff ff e2 	cmp    BYTE PTR [rbp-0x23e],0xe2
+  aa2493:	80 bd c3 fd ff ff 72 	cmp    BYTE PTR [rbp-0x23d],0x72
+  aa24a0:	80 bd c4 fd ff ff 25 	cmp    BYTE PTR [rbp-0x23c],0x25
+  aa24ad:	80 bd c5 fd ff ff 19 	cmp    BYTE PTR [rbp-0x23b],0x19
+  aa24ba:	80 bd c6 fd ff ff 94 	cmp    BYTE PTR [rbp-0x23a],0x94
+  aa24c7:	80 bd c7 fd ff ff fd 	cmp    BYTE PTR [rbp-0x239],0xfd
+  aa24d4:	80 bd c8 fd ff ff 41 	cmp    BYTE PTR [rbp-0x238],0x41
+  aa24e1:	80 bd c9 fd ff ff 48 	cmp    BYTE PTR [rbp-0x237],0x48
+  aa24ee:	80 bd ca fd ff ff 97 	cmp    BYTE PTR [rbp-0x236],0x97
+  aa24fb:	80 bd cb fd ff ff 7a 	cmp    BYTE PTR [rbp-0x235],0x7a
+  aa2508:	80 bd cc fd ff ff d6 	cmp    BYTE PTR [rbp-0x234],0xd6
+  aa2515:	80 bd cd fd ff ff 45 	cmp    BYTE PTR [rbp-0x233],0x45
+  aa2522:	80 bd ce fd ff ff 70 	cmp    BYTE PTR [rbp-0x232],0x70
+  aa252f:	80 bd cf fd ff ff 43 	cmp    BYTE PTR [rbp-0x231],0x43
+  aa253c:	80 bd d0 fd ff ff d0 	cmp    BYTE PTR [rbp-0x230],0xd0
+  aa2549:	80 bd d1 fd ff ff f0 	cmp    BYTE PTR [rbp-0x22f],0xf0
+  aa2556:	80 bd d2 fd ff ff 4f 	cmp    BYTE PTR [rbp-0x22e],0x4f
+  aa2563:	80 bd d3 fd ff ff 73 	cmp    BYTE PTR [rbp-0x22d],0x73
+  aa2570:	80 bd d4 fd ff ff 82 	cmp    BYTE PTR [rbp-0x22c],0x82
+  aa257d:	80 bd d5 fd ff ff 6d 	cmp    BYTE PTR [rbp-0x22b],0x6d
+  aa258a:	80 bd d6 fd ff ff e4 	cmp    BYTE PTR [rbp-0x22a],0xe4
+  aa2597:	80 bd d7 fd ff ff a3 	cmp    BYTE PTR [rbp-0x229],0xa3
+  aa25a4:	80 bd d8 fd ff ff 2e 	cmp    BYTE PTR [rbp-0x228],0x2e
+  aa25b1:	80 bd d9 fd ff ff fb 	cmp    BYTE PTR [rbp-0x227],0xfb
+  aa25be:	80 bd da fd ff ff b9 	cmp    BYTE PTR [rbp-0x226],0xb9
+  aa25cb:	80 bd db fd ff ff 79 	cmp    BYTE PTR [rbp-0x225],0x79
+  aa25d8:	80 bd dc fd ff ff dd 	cmp    BYTE PTR [rbp-0x224],0xdd
+  aa25e5:	80 bd dd fd ff ff 9b 	cmp    BYTE PTR [rbp-0x223],0x9b
+  aa25f2:	80 bd de fd ff ff b1 	cmp    BYTE PTR [rbp-0x222],0xb1
+  aa25ff:	80 bd df fd ff ff 4b 	cmp    BYTE PTR [rbp-0x221],0x4b
+  aa260c:	80 bd e0 fd ff ff 90 	cmp    BYTE PTR [rbp-0x220],0x90
+  aa2619:	80 bd e1 fd ff ff 3f 	cmp    BYTE PTR [rbp-0x21f],0x3f
+  aa2626:	80 bd e2 fd ff ff 5d 	cmp    BYTE PTR [rbp-0x21e],0x5d
+  aa2633:	80 bd e3 fd ff ff 2e 	cmp    BYTE PTR [rbp-0x21d],0x2e
+  aa2640:	80 bd e4 fd ff ff 54 	cmp    BYTE PTR [rbp-0x21c],0x54
+  aa264d:	80 bd e5 fd ff ff c4 	cmp    BYTE PTR [rbp-0x21b],0xc4
+  aa265a:	80 bd e6 fd ff ff 13 	cmp    BYTE PTR [rbp-0x21a],0x13
+  aa2667:	80 bd e7 fd ff ff 38 	cmp    BYTE PTR [rbp-0x219],0x38
+  aa2674:	80 bd e8 fd ff ff eb 	cmp    BYTE PTR [rbp-0x218],0xeb
+  aa2681:	80 bd e9 fd ff ff 78 	cmp    BYTE PTR [rbp-0x217],0x78
+  aa268e:	80 bd ea fd ff ff e3 	cmp    BYTE PTR [rbp-0x216],0xe3
+  aa269b:	80 bd eb fd ff ff d3 	cmp    BYTE PTR [rbp-0x215],0xd3
+  aa26a8:	80 bd ec fd ff ff d3 	cmp    BYTE PTR [rbp-0x214],0xd3
+  aa26b5:	80 bd ed fd ff ff 07 	cmp    BYTE PTR [rbp-0x213],0x7
+  aa26c2:	80 bd ee fd ff ff c0 	cmp    BYTE PTR [rbp-0x212],0xc0
+  aa26cf:	80 bd ef fd ff ff 20 	cmp    BYTE PTR [rbp-0x211],0x20
+  aa26dc:	80 bd f0 fd ff ff fc 	cmp    BYTE PTR [rbp-0x210],0xfc
+  aa26e9:	80 bd f1 fd ff ff 62 	cmp    BYTE PTR [rbp-0x20f],0x62
+  aa26f6:	80 bd f2 fd ff ff 5b 	cmp    BYTE PTR [rbp-0x20e],0x5b
+  aa2703:	80 bd f3 fd ff ff 86 	cmp    BYTE PTR [rbp-0x20d],0x86
+  aa2710:	80 bd f4 fd ff ff 7b 	cmp    BYTE PTR [rbp-0x20c],0x7b
+  aa271d:	80 bd f5 fd ff ff 2c 	cmp    BYTE PTR [rbp-0x20b],0x2c
+  aa272a:	80 bd f6 fd ff ff 16 	cmp    BYTE PTR [rbp-0x20a],0x16
+  aa2737:	80 bd f7 fd ff ff ad 	cmp    BYTE PTR [rbp-0x209],0xad
+  aa2744:	80 bd f8 fd ff ff d2 	cmp    BYTE PTR [rbp-0x208],0xd2
+  aa2751:	80 bd f9 fd ff ff ae 	cmp    BYTE PTR [rbp-0x207],0xae
+  aa275e:	80 bd fa fd ff ff 3c 	cmp    BYTE PTR [rbp-0x206],0x3c
+  aa276b:	80 bd fb fd ff ff 7e 	cmp    BYTE PTR [rbp-0x205],0x7e
+  aa2778:	80 bd fc fd ff ff cf 	cmp    BYTE PTR [rbp-0x204],0xcf
+  aa2785:	80 bd fd fd ff ff 21 	cmp    BYTE PTR [rbp-0x203],0x21
+  aa2792:	80 bd fe fd ff ff 09 	cmp    BYTE PTR [rbp-0x202],0x9
+  aa279f:	80 bd ff fd ff ff e5 	cmp    BYTE PTR [rbp-0x201],0xe5
+  aa27ac:	80 bd 00 fe ff ff b3 	cmp    BYTE PTR [rbp-0x200],0xb3
+  aa27b9:	80 bd 01 fe ff ff 5c 	cmp    BYTE PTR [rbp-0x1ff],0x5c
+  aa27c6:	80 bd 02 fe ff ff da 	cmp    BYTE PTR [rbp-0x1fe],0xda
+  aa27d3:	80 bd 03 fe ff ff 5b 	cmp    BYTE PTR [rbp-0x1fd],0x5b
+  aa27e0:	80 bd 04 fe ff ff 09 	cmp    BYTE PTR [rbp-0x1fc],0x9
+  aa27ed:	80 bd 05 fe ff ff c1 	cmp    BYTE PTR [rbp-0x1fb],0xc1
+  aa27fa:	80 bd 06 fe ff ff 58 	cmp    BYTE PTR [rbp-0x1fa],0x58
+  aa2807:	80 bd 07 fe ff ff 2b 	cmp    BYTE PTR [rbp-0x1f9],0x2b
+  aa2814:	80 bd 08 fe ff ff 77 	cmp    BYTE PTR [rbp-0x1f8],0x77
+  aa2821:	80 bd 09 fe ff ff 39 	cmp    BYTE PTR [rbp-0x1f7],0x39
+  aa282e:	80 bd 0a fe ff ff de 	cmp    BYTE PTR [rbp-0x1f6],0xde
+  aa283b:	80 bd 0b fe ff ff 38 	cmp    BYTE PTR [rbp-0x1f5],0x38
+  aa2848:	80 bd 0c fe ff ff 31 	cmp    BYTE PTR [rbp-0x1f4],0x31
+  aa2855:	80 bd 0d fe ff ff b2 	cmp    BYTE PTR [rbp-0x1f3],0xb2
+  aa2862:	80 bd 0e fe ff ff ba 	cmp    BYTE PTR [rbp-0x1f2],0xba
+  aa286f:	80 bd 0f fe ff ff de 	cmp    BYTE PTR [rbp-0x1f1],0xde
+  aa287c:	80 bd 10 fe ff ff 99 	cmp    BYTE PTR [rbp-0x1f0],0x99
+  aa2889:	80 bd 11 fe ff ff d2 	cmp    BYTE PTR [rbp-0x1ef],0xd2
+  aa2896:	80 bd 12 fe ff ff 17 	cmp    BYTE PTR [rbp-0x1ee],0x17
+  aa28a3:	80 bd 13 fe ff ff 40 	cmp    BYTE PTR [rbp-0x1ed],0x40
+  aa28b0:	80 bd 14 fe ff ff 25 	cmp    BYTE PTR [rbp-0x1ec],0x25
+  aa28bd:	80 bd 15 fe ff ff 76 	cmp    BYTE PTR [rbp-0x1eb],0x76
+  aa28ca:	80 bd 16 fe ff ff bd 	cmp    BYTE PTR [rbp-0x1ea],0xbd
+  aa28d7:	80 bd 17 fe ff ff a3 	cmp    BYTE PTR [rbp-0x1e9],0xa3
+  aa28e4:	80 bd 18 fe ff ff 6f 	cmp    BYTE PTR [rbp-0x1e8],0x6f
+  aa28f1:	80 bd 19 fe ff ff 83 	cmp    BYTE PTR [rbp-0x1e7],0x83
+  aa28fe:	80 bd 1a fe ff ff e4 	cmp    BYTE PTR [rbp-0x1e6],0xe4
+  aa290b:	80 bd 1b fe ff ff 85 	cmp    BYTE PTR [rbp-0x1e5],0x85
+  aa2918:	80 bd 1c fe ff ff b5 	cmp    BYTE PTR [rbp-0x1e4],0xb5
+  aa2925:	80 bd 1d fe ff ff 16 	cmp    BYTE PTR [rbp-0x1e3],0x16
+  aa2932:	80 bd 1e fe ff ff 90 	cmp    BYTE PTR [rbp-0x1e2],0x90
+  aa293f:	80 bd 1f fe ff ff 35 	cmp    BYTE PTR [rbp-0x1e1],0x35
+  aa294c:	80 bd 20 fe ff ff 55 	cmp    BYTE PTR [rbp-0x1e0],0x55
+  aa2959:	80 bd 21 fe ff ff 74 	cmp    BYTE PTR [rbp-0x1df],0x74
+  aa2966:	80 bd 22 fe ff ff a8 	cmp    BYTE PTR [rbp-0x1de],0xa8
+  aa2973:	80 bd 23 fe ff ff 47 	cmp    BYTE PTR [rbp-0x1dd],0x47
+  aa2980:	80 bd 24 fe ff ff 9a 	cmp    BYTE PTR [rbp-0x1dc],0x9a
+  aa298d:	80 bd 25 fe ff ff e9 	cmp    BYTE PTR [rbp-0x1db],0xe9
+  aa299a:	80 bd 26 fe ff ff bb 	cmp    BYTE PTR [rbp-0x1da],0xbb
+  aa29a7:	80 bd 27 fe ff ff 9f 	cmp    BYTE PTR [rbp-0x1d9],0x9f
+  aa29b4:	80 bd 28 fe ff ff 4e 	cmp    BYTE PTR [rbp-0x1d8],0x4e
+  aa29c1:	80 bd 29 fe ff ff d0 	cmp    BYTE PTR [rbp-0x1d7],0xd0
+  aa29ce:	80 bd 2a fe ff ff 57 	cmp    BYTE PTR [rbp-0x1d6],0x57
+  aa29db:	80 bd 2b fe ff ff 07 	cmp    BYTE PTR [rbp-0x1d5],0x7
+  aa29e8:	80 bd 2c fe ff ff 74 	cmp    BYTE PTR [rbp-0x1d4],0x74
+  aa29f5:	80 bd 2d fe ff ff a5 	cmp    BYTE PTR [rbp-0x1d3],0xa5
+  aa2a02:	80 bd 2e fe ff ff 82 	cmp    BYTE PTR [rbp-0x1d2],0x82
+  aa2a0f:	80 bd 2f fe ff ff 43 	cmp    BYTE PTR [rbp-0x1d1],0x43
+  aa2a1c:	80 bd 30 fe ff ff c9 	cmp    BYTE PTR [rbp-0x1d0],0xc9
+  aa2a29:	80 bd 31 fe ff ff 91 	cmp    BYTE PTR [rbp-0x1cf],0x91
+  aa2a36:	80 bd 32 fe ff ff 00 	cmp    BYTE PTR [rbp-0x1ce],0x0
+  aa2a43:	80 bd 33 fe ff ff 1d 	cmp    BYTE PTR [rbp-0x1cd],0x1d
+  aa2a50:	80 bd 34 fe ff ff 44 	cmp    BYTE PTR [rbp-0x1cc],0x44
+  aa2a5d:	80 bd 35 fe ff ff 38 	cmp    BYTE PTR [rbp-0x1cb],0x38
+  aa2a6a:	80 bd 36 fe ff ff 5f 	cmp    BYTE PTR [rbp-0x1ca],0x5f
+  aa2a77:	80 bd 37 fe ff ff 1c 	cmp    BYTE PTR [rbp-0x1c9],0x1c
+  aa2a84:	80 bd 38 fe ff ff 0e 	cmp    BYTE PTR [rbp-0x1c8],0xe
+  aa2a91:	80 bd 39 fe ff ff ed 	cmp    BYTE PTR [rbp-0x1c7],0xed
+  aa2a9e:	80 bd 3a fe ff ff 7e 	cmp    BYTE PTR [rbp-0x1c6],0x7e
+  aa2aab:	80 bd 3b fe ff ff a0 	cmp    BYTE PTR [rbp-0x1c5],0xa0
+  aa2ab8:	80 bd 3c fe ff ff e5 	cmp    BYTE PTR [rbp-0x1c4],0xe5
+  aa2ac5:	80 bd 3d fe ff ff f6 	cmp    BYTE PTR [rbp-0x1c3],0xf6
+  aa2ad2:	80 bd 3e fe ff ff 6c 	cmp    BYTE PTR [rbp-0x1c2],0x6c
+  aa2adf:	80 bd 3f fe ff ff de 	cmp    BYTE PTR [rbp-0x1c1],0xde
+  aa2aec:	80 bd 40 fe ff ff 65 	cmp    BYTE PTR [rbp-0x1c0],0x65
+  aa2af9:	80 bd 41 fe ff ff 32 	cmp    BYTE PTR [rbp-0x1bf],0x32
+  aa2b06:	80 bd 42 fe ff ff 93 	cmp    BYTE PTR [rbp-0x1be],0x93
+  aa2b13:	80 bd 43 fe ff ff f2 	cmp    BYTE PTR [rbp-0x1bd],0xf2
+  aa2b20:	80 bd 44 fe ff ff b2 	cmp    BYTE PTR [rbp-0x1bc],0xb2
+  aa2b2d:	80 bd 45 fe ff ff 6c 	cmp    BYTE PTR [rbp-0x1bb],0x6c
+  aa2b3a:	80 bd 46 fe ff ff f2 	cmp    BYTE PTR [rbp-0x1ba],0xf2
+  aa2b47:	80 bd 47 fe ff ff 29 	cmp    BYTE PTR [rbp-0x1b9],0x29
+  aa2b54:	80 bd 48 fe ff ff 06 	cmp    BYTE PTR [rbp-0x1b8],0x6
+  aa2b61:	80 bd 49 fe ff ff 2d 	cmp    BYTE PTR [rbp-0x1b7],0x2d
+  aa2b6e:	80 bd 4a fe ff ff 38 	cmp    BYTE PTR [rbp-0x1b6],0x38
+  aa2b7b:	80 bd 4b fe ff ff fa 	cmp    BYTE PTR [rbp-0x1b5],0xfa
+  aa2b88:	80 bd 4c fe ff ff 79 	cmp    BYTE PTR [rbp-0x1b4],0x79
+  aa2b95:	80 bd 4d fe ff ff e4 	cmp    BYTE PTR [rbp-0x1b3],0xe4
+  aa2ba2:	80 bd 4e fe ff ff 6a 	cmp    BYTE PTR [rbp-0x1b2],0x6a
+  aa2baf:	80 bd 4f fe ff ff 29 	cmp    BYTE PTR [rbp-0x1b1],0x29
+  aa2bbc:	80 bd 50 fe ff ff cb 	cmp    BYTE PTR [rbp-0x1b0],0xcb
+  aa2bc9:	80 bd 51 fe ff ff c9 	cmp    BYTE PTR [rbp-0x1af],0xc9
+  aa2bd6:	80 bd 52 fe ff ff 63 	cmp    BYTE PTR [rbp-0x1ae],0x63
+  aa2be3:	80 bd 53 fe ff ff 67 	cmp    BYTE PTR [rbp-0x1ad],0x67
+  aa2bf0:	80 bd 54 fe ff ff 7d 	cmp    BYTE PTR [rbp-0x1ac],0x7d
+  aa2bfd:	80 bd 55 fe ff ff 19 	cmp    BYTE PTR [rbp-0x1ab],0x19
+  aa2c0a:	80 bd 56 fe ff ff 40 	cmp    BYTE PTR [rbp-0x1aa],0x40
+  aa2c17:	80 bd 57 fe ff ff 19 	cmp    BYTE PTR [rbp-0x1a9],0x19
+  aa2c24:	80 bd 58 fe ff ff 5d 	cmp    BYTE PTR [rbp-0x1a8],0x5d
+  aa2c31:	80 bd 59 fe ff ff 6e 	cmp    BYTE PTR [rbp-0x1a7],0x6e
+  aa2c3e:	80 bd 5a fe ff ff 98 	cmp    BYTE PTR [rbp-0x1a6],0x98
+  aa2c4b:	80 bd 5b fe ff ff 8d 	cmp    BYTE PTR [rbp-0x1a5],0x8d
+  aa2c58:	80 bd 5c fe ff ff 69 	cmp    BYTE PTR [rbp-0x1a4],0x69
+  aa2c65:	80 bd 5d fe ff ff 2d 	cmp    BYTE PTR [rbp-0x1a3],0x2d
+  aa2c72:	80 bd 5e fe ff ff 83 	cmp    BYTE PTR [rbp-0x1a2],0x83
+  aa2c7f:	80 bd 5f fe ff ff d9 	cmp    BYTE PTR [rbp-0x1a1],0xd9
+  aa2c8c:	80 bd 60 fe ff ff 1b 	cmp    BYTE PTR [rbp-0x1a0],0x1b
+  aa2c99:	80 bd 61 fe ff ff c5 	cmp    BYTE PTR [rbp-0x19f],0xc5
+  aa2ca6:	80 bd 62 fe ff ff 90 	cmp    BYTE PTR [rbp-0x19e],0x90
+  aa2cb3:	80 bd 63 fe ff ff be 	cmp    BYTE PTR [rbp-0x19d],0xbe
+  aa2cc0:	80 bd 64 fe ff ff 45 	cmp    BYTE PTR [rbp-0x19c],0x45
+  aa2ccd:	80 bd 65 fe ff ff 3c 	cmp    BYTE PTR [rbp-0x19b],0x3c
+  aa2cda:	80 bd 66 fe ff ff bd 	cmp    BYTE PTR [rbp-0x19a],0xbd
+  aa2ce7:	80 bd 67 fe ff ff d6 	cmp    BYTE PTR [rbp-0x199],0xd6
+  aa2cf4:	80 bd 68 fe ff ff c0 	cmp    BYTE PTR [rbp-0x198],0xc0
+  aa2d01:	80 bd 69 fe ff ff 04 	cmp    BYTE PTR [rbp-0x197],0x4
+  aa2d0e:	80 bd 6a fe ff ff f7 	cmp    BYTE PTR [rbp-0x196],0xf7
+  aa2d1b:	80 bd 6b fe ff ff 78 	cmp    BYTE PTR [rbp-0x195],0x78
+  aa2d28:	80 bd 6c fe ff ff de 	cmp    BYTE PTR [rbp-0x194],0xde
+  aa2d35:	80 bd 6d fe ff ff 12 	cmp    BYTE PTR [rbp-0x193],0x12
+  aa2d42:	80 bd 6e fe ff ff c8 	cmp    BYTE PTR [rbp-0x192],0xc8
+  aa2d4f:	80 bd 6f fe ff ff e8 	cmp    BYTE PTR [rbp-0x191],0xe8
+  aa2d5c:	80 bd 70 fe ff ff c4 	cmp    BYTE PTR [rbp-0x190],0xc4
+  aa2d69:	80 bd 71 fe ff ff 06 	cmp    BYTE PTR [rbp-0x18f],0x6
+  aa2d76:	80 bd 72 fe ff ff 16 	cmp    BYTE PTR [rbp-0x18e],0x16
+  aa2d83:	80 bd 73 fe ff ff cb 	cmp    BYTE PTR [rbp-0x18d],0xcb
+  aa2d90:	80 bd 74 fe ff ff 0b 	cmp    BYTE PTR [rbp-0x18c],0xb
+  aa2d9d:	80 bd 75 fe ff ff 04 	cmp    BYTE PTR [rbp-0x18b],0x4
+  aa2daa:	80 bd 76 fe ff ff 77 	cmp    BYTE PTR [rbp-0x18a],0x77
+  aa2db7:	80 bd 77 fe ff ff 95 	cmp    BYTE PTR [rbp-0x189],0x95
+  aa2dc4:	80 bd 78 fe ff ff 69 	cmp    BYTE PTR [rbp-0x188],0x69
+  aa2dd1:	80 bd 79 fe ff ff c4 	cmp    BYTE PTR [rbp-0x187],0xc4
+  aa2dde:	80 bd 7a fe ff ff 13 	cmp    BYTE PTR [rbp-0x186],0x13
+  aa2deb:	80 bd 7b fe ff ff cb 	cmp    BYTE PTR [rbp-0x185],0xcb
+  aa2df8:	80 bd 7c fe ff ff 15 	cmp    BYTE PTR [rbp-0x184],0x15
+  aa2e05:	80 bd 7d fe ff ff 99 	cmp    BYTE PTR [rbp-0x183],0x99
+  aa2e12:	80 bd 7e fe ff ff f3 	cmp    BYTE PTR [rbp-0x182],0xf3
+  aa2e1f:	80 bd 7f fe ff ff 03 	cmp    BYTE PTR [rbp-0x181],0x3
+  aa2e2c:	80 bd 80 fe ff ff 06 	cmp    BYTE PTR [rbp-0x180],0x6
+  aa2e39:	80 bd 81 fe ff ff ae 	cmp    BYTE PTR [rbp-0x17f],0xae
+  aa2e46:	80 bd 82 fe ff ff 82 	cmp    BYTE PTR [rbp-0x17e],0x82
+  aa2e53:	80 bd 83 fe ff ff da 	cmp    BYTE PTR [rbp-0x17d],0xda
+  aa2e60:	80 bd 84 fe ff ff 52 	cmp    BYTE PTR [rbp-0x17c],0x52
+  aa2e6d:	80 bd 85 fe ff ff f6 	cmp    BYTE PTR [rbp-0x17b],0xf6
+  aa2e7a:	80 bd 86 fe ff ff 90 	cmp    BYTE PTR [rbp-0x17a],0x90
+  aa2e87:	80 bd 87 fe ff ff 20 	cmp    BYTE PTR [rbp-0x179],0x20
+  aa2e94:	80 bd 88 fe ff ff dd 	cmp    BYTE PTR [rbp-0x178],0xdd
+  aa2ea1:	80 bd 89 fe ff ff 09 	cmp    BYTE PTR [rbp-0x177],0x9
+  aa2eae:	80 bd 8a fe ff ff 7b 	cmp    BYTE PTR [rbp-0x176],0x7b
+  aa2ebb:	80 bd 8b fe ff ff 3d 	cmp    BYTE PTR [rbp-0x175],0x3d
+  aa2ec8:	80 bd 8c fe ff ff eb 	cmp    BYTE PTR [rbp-0x174],0xeb
+  aa2ed5:	80 bd 8d fe ff ff 1c 	cmp    BYTE PTR [rbp-0x173],0x1c
+  aa2ee2:	80 bd 8e fe ff ff 13 	cmp    BYTE PTR [rbp-0x172],0x13
+  aa2eef:	80 bd 8f fe ff ff 93 	cmp    BYTE PTR [rbp-0x171],0x93
+  aa2efc:	80 bd 90 fe ff ff 70 	cmp    BYTE PTR [rbp-0x170],0x70
+  aa2f09:	80 bd 91 fe ff ff fd 	cmp    BYTE PTR [rbp-0x16f],0xfd
+  aa2f16:	80 bd 92 fe ff ff b1 	cmp    BYTE PTR [rbp-0x16e],0xb1
+  aa2f23:	80 bd 93 fe ff ff 9f 	cmp    BYTE PTR [rbp-0x16d],0x9f
+  aa2f30:	80 bd 94 fe ff ff 6d 	cmp    BYTE PTR [rbp-0x16c],0x6d
+  aa2f3d:	80 bd 95 fe ff ff 46 	cmp    BYTE PTR [rbp-0x16b],0x46
+  aa2f4a:	80 bd 96 fe ff ff 65 	cmp    BYTE PTR [rbp-0x16a],0x65
+  aa2f57:	80 bd 97 fe ff ff 81 	cmp    BYTE PTR [rbp-0x169],0x81
+  aa2f64:	80 bd 98 fe ff ff 83 	cmp    BYTE PTR [rbp-0x168],0x83
+  aa2f71:	80 bd 99 fe ff ff 6a 	cmp    BYTE PTR [rbp-0x167],0x6a
+  aa2f7e:	80 bd 9a fe ff ff 3f 	cmp    BYTE PTR [rbp-0x166],0x3f
+  aa2f8b:	80 bd 9b fe ff ff 42 	cmp    BYTE PTR [rbp-0x165],0x42
+  aa2f98:	80 bd 9c fe ff ff 28 	cmp    BYTE PTR [rbp-0x164],0x28
+  aa2fa5:	80 bd 9d fe ff ff 3a 	cmp    BYTE PTR [rbp-0x163],0x3a
+  aa2fb2:	80 bd 9e fe ff ff 0f 	cmp    BYTE PTR [rbp-0x162],0xf
+  aa2fbf:	80 bd 9f fe ff ff 41 	cmp    BYTE PTR [rbp-0x161],0x41
+  aa2fcc:	80 bd a0 fe ff ff ed 	cmp    BYTE PTR [rbp-0x160],0xed
+  aa2fd9:	80 bd a1 fe ff ff e3 	cmp    BYTE PTR [rbp-0x15f],0xe3
+  aa2fe6:	80 bd a2 fe ff ff 9f 	cmp    BYTE PTR [rbp-0x15e],0x9f
+  aa2ff3:	80 bd a3 fe ff ff 80 	cmp    BYTE PTR [rbp-0x15d],0x80
+  aa3000:	80 bd a4 fe ff ff af 	cmp    BYTE PTR [rbp-0x15c],0xaf
+  aa300d:	80 bd a5 fe ff ff 8f 	cmp    BYTE PTR [rbp-0x15b],0x8f
+  aa301a:	80 bd a6 fe ff ff 36 	cmp    BYTE PTR [rbp-0x15a],0x36
+  aa3027:	80 bd a7 fe ff ff ad 	cmp    BYTE PTR [rbp-0x159],0xad
+  aa3034:	80 bd a8 fe ff ff 53 	cmp    BYTE PTR [rbp-0x158],0x53
+  aa3041:	80 bd a9 fe ff ff 0d 	cmp    BYTE PTR [rbp-0x157],0xd
+  aa304e:	80 bd aa fe ff ff 13 	cmp    BYTE PTR [rbp-0x156],0x13
+  aa305b:	80 bd ab fe ff ff c6 	cmp    BYTE PTR [rbp-0x155],0xc6
+  aa3068:	80 bd ac fe ff ff 71 	cmp    BYTE PTR [rbp-0x154],0x71
+  aa3075:	80 bd ad fe ff ff be 	cmp    BYTE PTR [rbp-0x153],0xbe
+  aa3082:	80 bd ae fe ff ff 5f 	cmp    BYTE PTR [rbp-0x152],0x5f
+  aa308f:	80 bd af fe ff ff b2 	cmp    BYTE PTR [rbp-0x151],0xb2
+  aa309c:	80 bd b0 fe ff ff 1e 	cmp    BYTE PTR [rbp-0x150],0x1e
+  aa30a9:	80 bd b1 fe ff ff ee 	cmp    BYTE PTR [rbp-0x14f],0xee
+  aa30b6:	80 bd b2 fe ff ff 1d 	cmp    BYTE PTR [rbp-0x14e],0x1d
+  aa30c3:	80 bd b3 fe ff ff 92 	cmp    BYTE PTR [rbp-0x14d],0x92
+  aa30d0:	80 bd b4 fe ff ff 44 	cmp    BYTE PTR [rbp-0x14c],0x44
+  aa30dd:	80 bd b5 fe ff ff a2 	cmp    BYTE PTR [rbp-0x14b],0xa2
+  aa30ea:	80 bd b6 fe ff ff 16 	cmp    BYTE PTR [rbp-0x14a],0x16
+  aa30f7:	80 bd b7 fe ff ff b3 	cmp    BYTE PTR [rbp-0x149],0xb3
+  aa3104:	80 bd b8 fe ff ff 1f 	cmp    BYTE PTR [rbp-0x148],0x1f
+  aa3111:	80 bd b9 fe ff ff 85 	cmp    BYTE PTR [rbp-0x147],0x85
+  aa311e:	80 bd ba fe ff ff 02 	cmp    BYTE PTR [rbp-0x146],0x2
+  aa312b:	80 bd bb fe ff ff 99 	cmp    BYTE PTR [rbp-0x145],0x99
+  aa3138:	80 bd bc fe ff ff b0 	cmp    BYTE PTR [rbp-0x144],0xb0
+  aa3145:	80 bd bd fe ff ff 31 	cmp    BYTE PTR [rbp-0x143],0x31
+  aa3152:	80 bd be fe ff ff ab 	cmp    BYTE PTR [rbp-0x142],0xab
+  aa315f:	80 bd bf fe ff ff 23 	cmp    BYTE PTR [rbp-0x141],0x23
+  aa316c:	80 bd c0 fe ff ff 41 	cmp    BYTE PTR [rbp-0x140],0x41
+  aa3179:	80 bd c1 fe ff ff 9a 	cmp    BYTE PTR [rbp-0x13f],0x9a
+  aa3186:	80 bd c2 fe ff ff 8f 	cmp    BYTE PTR [rbp-0x13e],0x8f
+  aa3193:	80 bd c3 fe ff ff 6a 	cmp    BYTE PTR [rbp-0x13d],0x6a
+  aa31a0:	80 bd c4 fe ff ff 61 	cmp    BYTE PTR [rbp-0x13c],0x61
+  aa31ad:	80 bd c5 fe ff ff b5 	cmp    BYTE PTR [rbp-0x13b],0xb5
+  aa31ba:	80 bd c6 fe ff ff 5b 	cmp    BYTE PTR [rbp-0x13a],0x5b
+  aa31c7:	80 bd c7 fe ff ff 3e 	cmp    BYTE PTR [rbp-0x139],0x3e
+  aa31d4:	80 bd c8 fe ff ff f4 	cmp    BYTE PTR [rbp-0x138],0xf4
+  aa31e1:	80 bd c9 fe ff ff f8 	cmp    BYTE PTR [rbp-0x137],0xf8
+  aa31ee:	80 bd ca fe ff ff e7 	cmp    BYTE PTR [rbp-0x136],0xe7
+  aa31fb:	80 bd cb fe ff ff 2d 	cmp    BYTE PTR [rbp-0x135],0x2d
+  aa3208:	80 bd cc fe ff ff fc 	cmp    BYTE PTR [rbp-0x134],0xfc
+  aa3215:	80 bd cd fe ff ff ec 	cmp    BYTE PTR [rbp-0x133],0xec
+  aa3222:	80 bd ce fe ff ff 3b 	cmp    BYTE PTR [rbp-0x132],0x3b
+  aa322f:	80 bd cf fe ff ff 2f 	cmp    BYTE PTR [rbp-0x131],0x2f
+  aa323c:	80 bd d0 fe ff ff 8a 	cmp    BYTE PTR [rbp-0x130],0x8a
+  aa3249:	80 bd d1 fe ff ff 1f 	cmp    BYTE PTR [rbp-0x12f],0x1f
+  aa3256:	80 bd d2 fe ff ff 75 	cmp    BYTE PTR [rbp-0x12e],0x75
+  aa3263:	80 bd d3 fe ff ff 2e 	cmp    BYTE PTR [rbp-0x12d],0x2e
+  aa3270:	80 bd d4 fe ff ff 52 	cmp    BYTE PTR [rbp-0x12c],0x52
+  aa327d:	80 bd d5 fe ff ff 48 	cmp    BYTE PTR [rbp-0x12b],0x48
+  aa328a:	80 bd d6 fe ff ff 93 	cmp    BYTE PTR [rbp-0x12a],0x93
+  aa3297:	80 bd d7 fe ff ff 44 	cmp    BYTE PTR [rbp-0x129],0x44
+  aa32a4:	80 bd d8 fe ff ff f9 	cmp    BYTE PTR [rbp-0x128],0xf9
+  aa32b1:	80 bd d9 fe ff ff 55 	cmp    BYTE PTR [rbp-0x127],0x55
+  aa32be:	80 bd da fe ff ff 43 	cmp    BYTE PTR [rbp-0x126],0x43
+  aa32cb:	80 bd db fe ff ff 5b 	cmp    BYTE PTR [rbp-0x125],0x5b
+  aa32d8:	80 bd dc fe ff ff 0e 	cmp    BYTE PTR [rbp-0x124],0xe
+  aa32e5:	80 bd dd fe ff ff bc 	cmp    BYTE PTR [rbp-0x123],0xbc
+  aa32f2:	80 bd de fe ff ff e3 	cmp    BYTE PTR [rbp-0x122],0xe3
+  aa32ff:	80 bd df fe ff ff 97 	cmp    BYTE PTR [rbp-0x121],0x97
+  aa330c:	80 bd e0 fe ff ff 0d 	cmp    BYTE PTR [rbp-0x120],0xd
+  aa3319:	80 bd e1 fe ff ff 42 	cmp    BYTE PTR [rbp-0x11f],0x42
+  aa3326:	80 bd e2 fe ff ff c3 	cmp    BYTE PTR [rbp-0x11e],0xc3
+  aa3333:	80 bd e3 fe ff ff 76 	cmp    BYTE PTR [rbp-0x11d],0x76
+  aa3340:	80 bd e4 fe ff ff 18 	cmp    BYTE PTR [rbp-0x11c],0x18
+  aa334d:	80 bd e5 fe ff ff d9 	cmp    BYTE PTR [rbp-0x11b],0xd9
+  aa335a:	80 bd e6 fe ff ff 94 	cmp    BYTE PTR [rbp-0x11a],0x94
+  aa3367:	80 bd e7 fe ff ff 93 	cmp    BYTE PTR [rbp-0x119],0x93
+  aa3374:	80 bd e8 fe ff ff 11 	cmp    BYTE PTR [rbp-0x118],0x11
+  aa3381:	80 bd e9 fe ff ff b1 	cmp    BYTE PTR [rbp-0x117],0xb1
+  aa338e:	80 bd ea fe ff ff 43 	cmp    BYTE PTR [rbp-0x116],0x43
+  aa339b:	80 bd eb fe ff ff 96 	cmp    BYTE PTR [rbp-0x115],0x96
+  aa33a8:	80 bd ec fe ff ff 4b 	cmp    BYTE PTR [rbp-0x114],0x4b
+  aa33b5:	80 bd ed fe ff ff 49 	cmp    BYTE PTR [rbp-0x113],0x49
+  aa33c2:	80 bd ee fe ff ff ef 	cmp    BYTE PTR [rbp-0x112],0xef
+  aa33cf:	80 bd ef fe ff ff ae 	cmp    BYTE PTR [rbp-0x111],0xae
+  aa33dc:	80 bd f0 fe ff ff 4d 	cmp    BYTE PTR [rbp-0x110],0x4d
+  aa33e9:	80 bd f1 fe ff ff f3 	cmp    BYTE PTR [rbp-0x10f],0xf3
+  aa33f6:	80 bd f2 fe ff ff 6a 	cmp    BYTE PTR [rbp-0x10e],0x6a
+  aa3403:	80 bd f3 fe ff ff 63 	cmp    BYTE PTR [rbp-0x10d],0x63
+  aa3410:	80 bd f4 fe ff ff 96 	cmp    BYTE PTR [rbp-0x10c],0x96
+  aa341d:	80 bd f5 fe ff ff 6c 	cmp    BYTE PTR [rbp-0x10b],0x6c
+  aa342a:	80 bd f6 fe ff ff 44 	cmp    BYTE PTR [rbp-0x10a],0x44
+  aa3437:	80 bd f7 fe ff ff 19 	cmp    BYTE PTR [rbp-0x109],0x19
+  aa3444:	80 bd f8 fe ff ff 25 	cmp    BYTE PTR [rbp-0x108],0x25
+  aa3451:	80 bd f9 fe ff ff 4b 	cmp    BYTE PTR [rbp-0x107],0x4b
+  aa345e:	80 bd fa fe ff ff c2 	cmp    BYTE PTR [rbp-0x106],0xc2
+  aa346b:	80 bd fb fe ff ff c1 	cmp    BYTE PTR [rbp-0x105],0xc1
+  aa3478:	80 bd fc fe ff ff f6 	cmp    BYTE PTR [rbp-0x104],0xf6
+  aa3485:	80 bd fd fe ff ff 00 	cmp    BYTE PTR [rbp-0x103],0x0
+  aa3492:	80 bd fe fe ff ff f8 	cmp    BYTE PTR [rbp-0x102],0xf8
+  aa349f:	80 bd ff fe ff ff 54 	cmp    BYTE PTR [rbp-0x101],0x54
+  aa34ac:	80 bd 00 ff ff ff d4 	cmp    BYTE PTR [rbp-0x100],0xd4
+  aa34b9:	80 bd 01 ff ff ff 45 	cmp    BYTE PTR [rbp-0xff],0x45
+  aa34c6:	80 bd 02 ff ff ff b3 	cmp    BYTE PTR [rbp-0xfe],0xb3
+  aa34d3:	80 bd 03 ff ff ff 78 	cmp    BYTE PTR [rbp-0xfd],0x78
+  aa34e0:	80 bd 04 ff ff ff 7b 	cmp    BYTE PTR [rbp-0xfc],0x7b
+  aa34ed:	80 bd 05 ff ff ff 7c 	cmp    BYTE PTR [rbp-0xfb],0x7c
+  aa34fa:	80 bd 06 ff ff ff d4 	cmp    BYTE PTR [rbp-0xfa],0xd4
+  aa3507:	80 bd 07 ff ff ff f3 	cmp    BYTE PTR [rbp-0xf9],0xf3
+  aa3514:	80 bd 08 ff ff ff 5b 	cmp    BYTE PTR [rbp-0xf8],0x5b
+  aa3521:	80 bd 09 ff ff ff 82 	cmp    BYTE PTR [rbp-0xf7],0x82
+  aa352e:	80 bd 0a ff ff ff bf 	cmp    BYTE PTR [rbp-0xf6],0xbf
+  aa353b:	80 bd 0b ff ff ff a7 	cmp    BYTE PTR [rbp-0xf5],0xa7
+  aa3548:	80 bd 0c ff ff ff dc 	cmp    BYTE PTR [rbp-0xf4],0xdc
+  aa3555:	80 bd 0d ff ff ff bc 	cmp    BYTE PTR [rbp-0xf3],0xbc
+  aa3562:	80 bd 0e ff ff ff 21 	cmp    BYTE PTR [rbp-0xf2],0x21
+  aa356f:	80 bd 0f ff ff ff 6e 	cmp    BYTE PTR [rbp-0xf1],0x6e
+  aa357c:	80 bd 10 ff ff ff ae 	cmp    BYTE PTR [rbp-0xf0],0xae
+  aa3589:	80 bd 11 ff ff ff 7e 	cmp    BYTE PTR [rbp-0xef],0x7e
+  aa3596:	80 bd 12 ff ff ff b0 	cmp    BYTE PTR [rbp-0xee],0xb0
+  aa35a3:	80 bd 13 ff ff ff ea 	cmp    BYTE PTR [rbp-0xed],0xea
+  aa35b0:	80 bd 14 ff ff ff 72 	cmp    BYTE PTR [rbp-0xec],0x72
+  aa35bd:	80 bd 15 ff ff ff 87 	cmp    BYTE PTR [rbp-0xeb],0x87
+  aa35ca:	80 bd 16 ff ff ff c6 	cmp    BYTE PTR [rbp-0xea],0xc6
+  aa35d7:	80 bd 17 ff ff ff f7 	cmp    BYTE PTR [rbp-0xe9],0xf7
+  aa35e4:	80 bd 18 ff ff ff 7f 	cmp    BYTE PTR [rbp-0xe8],0x7f
+  aa35f1:	80 bd 19 ff ff ff e2 	cmp    BYTE PTR [rbp-0xe7],0xe2
+  aa35fe:	80 bd 1a ff ff ff f0 	cmp    BYTE PTR [rbp-0xe6],0xf0
+  aa360b:	80 bd 1b ff ff ff 19 	cmp    BYTE PTR [rbp-0xe5],0x19
+  aa3618:	80 bd 1c ff ff ff 1a 	cmp    BYTE PTR [rbp-0xe4],0x1a
+  aa3625:	80 bd 1d ff ff ff cc 	cmp    BYTE PTR [rbp-0xe3],0xcc
+  aa3632:	80 bd 1e ff ff ff 8d 	cmp    BYTE PTR [rbp-0xe2],0x8d
+  aa363f:	80 bd 1f ff ff ff 15 	cmp    BYTE PTR [rbp-0xe1],0x15
+  aa364c:	80 bd 20 ff ff ff ab 	cmp    BYTE PTR [rbp-0xe0],0xab
+  aa3659:	80 bd 21 ff ff ff 4d 	cmp    BYTE PTR [rbp-0xdf],0x4d
+  aa3666:	80 bd 22 ff ff ff c1 	cmp    BYTE PTR [rbp-0xde],0xc1
+  aa3673:	80 bd 23 ff ff ff 1f 	cmp    BYTE PTR [rbp-0xdd],0x1f
+  aa3680:	80 bd 24 ff ff ff 78 	cmp    BYTE PTR [rbp-0xdc],0x78
+  aa368d:	80 bd 25 ff ff ff ed 	cmp    BYTE PTR [rbp-0xdb],0xed
+  aa369a:	80 bd 26 ff ff ff 96 	cmp    BYTE PTR [rbp-0xda],0x96
+  aa36a7:	80 bd 27 ff ff ff 2b 	cmp    BYTE PTR [rbp-0xd9],0x2b
+  aa36b4:	80 bd 28 ff ff ff 5e 	cmp    BYTE PTR [rbp-0xd8],0x5e
+  aa36c1:	80 bd 29 ff ff ff 4d 	cmp    BYTE PTR [rbp-0xd7],0x4d
+  aa36ce:	80 bd 2a ff ff ff 84 	cmp    BYTE PTR [rbp-0xd6],0x84
+  aa36db:	80 bd 2b ff ff ff 47 	cmp    BYTE PTR [rbp-0xd5],0x47
+  aa36e8:	80 bd 2c ff ff ff 4c 	cmp    BYTE PTR [rbp-0xd4],0x4c
+  aa36f5:	80 bd 2d ff ff ff 52 	cmp    BYTE PTR [rbp-0xd3],0x52
+  aa3702:	80 bd 2e ff ff ff 86 	cmp    BYTE PTR [rbp-0xd2],0x86
+  aa370f:	80 bd 2f ff ff ff 55 	cmp    BYTE PTR [rbp-0xd1],0x55
+  aa371c:	80 bd 30 ff ff ff 5b 	cmp    BYTE PTR [rbp-0xd0],0x5b
+  aa3729:	80 bd 31 ff ff ff 00 	cmp    BYTE PTR [rbp-0xcf],0x0
+  aa3736:	80 bd 32 ff ff ff af 	cmp    BYTE PTR [rbp-0xce],0xaf
+  aa3743:	80 bd 33 ff ff ff 1b 	cmp    BYTE PTR [rbp-0xcd],0x1b
+  aa3750:	80 bd 34 ff ff ff be 	cmp    BYTE PTR [rbp-0xcc],0xbe
+  aa375d:	80 bd 35 ff ff ff a6 	cmp    BYTE PTR [rbp-0xcb],0xa6
+  aa376a:	80 bd 36 ff ff ff ae 	cmp    BYTE PTR [rbp-0xca],0xae
+  aa3777:	80 bd 37 ff ff ff 3d 	cmp    BYTE PTR [rbp-0xc9],0x3d
+  aa3784:	80 bd 38 ff ff ff 34 	cmp    BYTE PTR [rbp-0xc8],0x34
+  aa3791:	80 bd 39 ff ff ff ea 	cmp    BYTE PTR [rbp-0xc7],0xea
+  aa379e:	80 bd 3a ff ff ff a6 	cmp    BYTE PTR [rbp-0xc6],0xa6
+  aa37ab:	80 bd 3b ff ff ff ac 	cmp    BYTE PTR [rbp-0xc5],0xac
+  aa37b8:	80 bd 3c ff ff ff 85 	cmp    BYTE PTR [rbp-0xc4],0x85
+  aa37c5:	80 bd 3d ff ff ff 59 	cmp    BYTE PTR [rbp-0xc3],0x59
+  aa37d2:	80 bd 3e ff ff ff 9d 	cmp    BYTE PTR [rbp-0xc2],0x9d
+  aa37df:	80 bd 3f ff ff ff e1 	cmp    BYTE PTR [rbp-0xc1],0xe1
+  aa37ec:	80 bd 40 ff ff ff 23 	cmp    BYTE PTR [rbp-0xc0],0x23
+  aa37f9:	80 bd 41 ff ff ff 15 	cmp    BYTE PTR [rbp-0xbf],0x15
+  aa3806:	80 bd 42 ff ff ff 52 	cmp    BYTE PTR [rbp-0xbe],0x52
+  aa3813:	80 bd 43 ff ff ff 68 	cmp    BYTE PTR [rbp-0xbd],0x68
+  aa3820:	80 bd 44 ff ff ff 6d 	cmp    BYTE PTR [rbp-0xbc],0x6d
+  aa382d:	80 bd 45 ff ff ff 24 	cmp    BYTE PTR [rbp-0xbb],0x24
+  aa383a:	80 bd 46 ff ff ff 0f 	cmp    BYTE PTR [rbp-0xba],0xf
+  aa3847:	80 bd 47 ff ff ff 88 	cmp    BYTE PTR [rbp-0xb9],0x88
+  aa3854:	80 bd 48 ff ff ff 3c 	cmp    BYTE PTR [rbp-0xb8],0x3c
+  aa3861:	80 bd 49 ff ff ff 9f 	cmp    BYTE PTR [rbp-0xb7],0x9f
+  aa386e:	80 bd 4a ff ff ff e7 	cmp    BYTE PTR [rbp-0xb6],0xe7
+  aa387b:	80 bd 4b ff ff ff fa 	cmp    BYTE PTR [rbp-0xb5],0xfa
+  aa3888:	80 bd 4c ff ff ff 10 	cmp    BYTE PTR [rbp-0xb4],0x10
+  aa3895:	80 bd 4d ff ff ff a2 	cmp    BYTE PTR [rbp-0xb3],0xa2
+  aa38a2:	80 bd 4e ff ff ff 7b 	cmp    BYTE PTR [rbp-0xb2],0x7b
+  aa38af:	80 bd 4f ff ff ff 7e 	cmp    BYTE PTR [rbp-0xb1],0x7e
+  aa38bc:	80 bd 50 ff ff ff 77 	cmp    BYTE PTR [rbp-0xb0],0x77
+  aa38c9:	80 bd 51 ff ff ff d0 	cmp    BYTE PTR [rbp-0xaf],0xd0
+  aa38d6:	80 bd 52 ff ff ff 4c 	cmp    BYTE PTR [rbp-0xae],0x4c
+  aa38e3:	80 bd 53 ff ff ff d1 	cmp    BYTE PTR [rbp-0xad],0xd1
+  aa38f0:	80 bd 54 ff ff ff d6 	cmp    BYTE PTR [rbp-0xac],0xd6
+  aa38fd:	80 bd 55 ff ff ff 76 	cmp    BYTE PTR [rbp-0xab],0x76
+  aa390a:	80 bd 56 ff ff ff b9 	cmp    BYTE PTR [rbp-0xaa],0xb9
+  aa3917:	80 bd 57 ff ff ff 7f 	cmp    BYTE PTR [rbp-0xa9],0x7f
+  aa3924:	80 bd 58 ff ff ff d1 	cmp    BYTE PTR [rbp-0xa8],0xd1
+  aa3931:	80 bd 59 ff ff ff c6 	cmp    BYTE PTR [rbp-0xa7],0xc6
+  aa393e:	80 bd 5a ff ff ff c4 	cmp    BYTE PTR [rbp-0xa6],0xc4
+  aa394b:	80 bd 5b ff ff ff 3d 	cmp    BYTE PTR [rbp-0xa5],0x3d
+  aa3958:	80 bd 5c ff ff ff fc 	cmp    BYTE PTR [rbp-0xa4],0xfc
+  aa3965:	80 bd 5d ff ff ff 7b 	cmp    BYTE PTR [rbp-0xa3],0x7b
+  aa3972:	80 bd 5e ff ff ff 4a 	cmp    BYTE PTR [rbp-0xa2],0x4a
+  aa397f:	80 bd 5f ff ff ff 9b 	cmp    BYTE PTR [rbp-0xa1],0x9b
+  aa398c:	80 bd 60 ff ff ff 4f 	cmp    BYTE PTR [rbp-0xa0],0x4f
+  aa3999:	80 bd 61 ff ff ff 0d 	cmp    BYTE PTR [rbp-0x9f],0xd
+  aa39a6:	80 bd 62 ff ff ff ce 	cmp    BYTE PTR [rbp-0x9e],0xce
+  aa39b3:	80 bd 63 ff ff ff b1 	cmp    BYTE PTR [rbp-0x9d],0xb1
+  aa39c0:	80 bd 64 ff ff ff 6c 	cmp    BYTE PTR [rbp-0x9c],0x6c
+  aa39cd:	80 bd 65 ff ff ff b6 	cmp    BYTE PTR [rbp-0x9b],0xb6
+  aa39da:	80 bd 66 ff ff ff ef 	cmp    BYTE PTR [rbp-0x9a],0xef
+  aa39e7:	80 bd 67 ff ff ff 25 	cmp    BYTE PTR [rbp-0x99],0x25
+  aa39f4:	80 bd 68 ff ff ff eb 	cmp    BYTE PTR [rbp-0x98],0xeb
+  aa3a01:	80 bd 69 ff ff ff c8 	cmp    BYTE PTR [rbp-0x97],0xc8
+  aa3a0e:	80 bd 6a ff ff ff 3d 	cmp    BYTE PTR [rbp-0x96],0x3d
+  aa3a1b:	80 bd 6b ff ff ff 6a 	cmp    BYTE PTR [rbp-0x95],0x6a
+  aa3a28:	80 bd 6c ff ff ff 30 	cmp    BYTE PTR [rbp-0x94],0x30
+  aa3a35:	80 bd 6d ff ff ff 8f 	cmp    BYTE PTR [rbp-0x93],0x8f
+  aa3a42:	80 bd 6e ff ff ff 3d 	cmp    BYTE PTR [rbp-0x92],0x3d
+  aa3a4f:	80 bd 6f ff ff ff 17 	cmp    BYTE PTR [rbp-0x91],0x17
+  aa3a5c:	80 bd 70 ff ff ff 76 	cmp    BYTE PTR [rbp-0x90],0x76
+  aa3a69:	80 bd 71 ff ff ff bb 	cmp    BYTE PTR [rbp-0x8f],0xbb
+  aa3a76:	80 bd 72 ff ff ff 54 	cmp    BYTE PTR [rbp-0x8e],0x54
+  aa3a83:	80 bd 73 ff ff ff 7e 	cmp    BYTE PTR [rbp-0x8d],0x7e
+  aa3a90:	80 bd 74 ff ff ff 4d 	cmp    BYTE PTR [rbp-0x8c],0x4d
+  aa3a9d:	80 bd 75 ff ff ff f7 	cmp    BYTE PTR [rbp-0x8b],0xf7
+  aa3aaa:	80 bd 76 ff ff ff f7 	cmp    BYTE PTR [rbp-0x8a],0xf7
+  aa3ab7:	80 bd 77 ff ff ff b1 	cmp    BYTE PTR [rbp-0x89],0xb1
+  aa3ac4:	80 bd 78 ff ff ff 65 	cmp    BYTE PTR [rbp-0x88],0x65
+  aa3ad1:	80 bd 79 ff ff ff 75 	cmp    BYTE PTR [rbp-0x87],0x75
+  aa3ade:	80 bd 7a ff ff ff ae 	cmp    BYTE PTR [rbp-0x86],0xae
+  aa3aeb:	80 bd 7b ff ff ff 36 	cmp    BYTE PTR [rbp-0x85],0x36
+  aa3af8:	80 bd 7c ff ff ff 25 	cmp    BYTE PTR [rbp-0x84],0x25
+  aa3b05:	80 bd 7d ff ff ff 90 	cmp    BYTE PTR [rbp-0x83],0x90
+  aa3b12:	80 bd 7e ff ff ff 80 	cmp    BYTE PTR [rbp-0x82],0x80
+  aa3b1f:	80 bd 7f ff ff ff 46 	cmp    BYTE PTR [rbp-0x81],0x46
+  aa3b2c:	80 7d 80 a1          	cmp    BYTE PTR [rbp-0x80],0xa1
+  aa3b36:	80 7d 81 ad          	cmp    BYTE PTR [rbp-0x7f],0xad
+  aa3b40:	80 7d 82 cf          	cmp    BYTE PTR [rbp-0x7e],0xcf
+  aa3b4a:	80 7d 83 1a          	cmp    BYTE PTR [rbp-0x7d],0x1a
+  aa3b54:	80 7d 84 60          	cmp    BYTE PTR [rbp-0x7c],0x60
+  aa3b5e:	80 7d 85 4b          	cmp    BYTE PTR [rbp-0x7b],0x4b
+  aa3b68:	80 7d 86 0d          	cmp    BYTE PTR [rbp-0x7a],0xd
+  aa3b72:	80 7d 87 45          	cmp    BYTE PTR [rbp-0x79],0x45
+  aa3b7c:	80 7d 88 7c          	cmp    BYTE PTR [rbp-0x78],0x7c
+  aa3b86:	80 7d 89 04          	cmp    BYTE PTR [rbp-0x77],0x4
+  aa3b90:	80 7d 8a 24          	cmp    BYTE PTR [rbp-0x76],0x24
+  aa3b9a:	80 7d 8b ea          	cmp    BYTE PTR [rbp-0x75],0xea
+  aa3ba4:	80 7d 8c 51          	cmp    BYTE PTR [rbp-0x74],0x51
+  aa3bae:	80 7d 8d 51          	cmp    BYTE PTR [rbp-0x73],0x51
+  aa3bb8:	80 7d 8e 15          	cmp    BYTE PTR [rbp-0x72],0x15
+  aa3bc2:	80 7d 8f 4b          	cmp    BYTE PTR [rbp-0x71],0x4b
+  aa3bcc:	80 7d 90 33          	cmp    BYTE PTR [rbp-0x70],0x33
+  aa3bd6:	80 7d 91 4b          	cmp    BYTE PTR [rbp-0x6f],0x4b
+  aa3be0:	80 7d 92 75          	cmp    BYTE PTR [rbp-0x6e],0x75
+  aa3bea:	80 7d 93 b1          	cmp    BYTE PTR [rbp-0x6d],0xb1
+  aa3bf4:	80 7d 94 cf          	cmp    BYTE PTR [rbp-0x6c],0xcf
+  aa3bfe:	80 7d 95 ff          	cmp    BYTE PTR [rbp-0x6b],0xff
+  aa3c08:	80 7d 96 0f          	cmp    BYTE PTR [rbp-0x6a],0xf
+  aa3c12:	80 7d 97 22          	cmp    BYTE PTR [rbp-0x69],0x22
+  aa3c1c:	80 7d 98 d2          	cmp    BYTE PTR [rbp-0x68],0xd2
+  aa3c26:	80 7d 99 94          	cmp    BYTE PTR [rbp-0x67],0x94
+  aa3c30:	80 7d 9a 75          	cmp    BYTE PTR [rbp-0x66],0x75
+  aa3c3a:	80 7d 9b 30          	cmp    BYTE PTR [rbp-0x65],0x30
+  aa3c44:	80 7d 9c 42          	cmp    BYTE PTR [rbp-0x64],0x42
+  aa3c4e:	80 7d 9d a4          	cmp    BYTE PTR [rbp-0x63],0xa4
+  aa3c58:	80 7d 9e 0c          	cmp    BYTE PTR [rbp-0x62],0xc
+  aa3c62:	80 7d 9f 6a          	cmp    BYTE PTR [rbp-0x61],0x6a
+  aa3c6c:	80 7d a0 9b          	cmp    BYTE PTR [rbp-0x60],0x9b
+  aa3c76:	80 7d a1 ed          	cmp    BYTE PTR [rbp-0x5f],0xed
+  aa3c80:	80 7d a2 a6          	cmp    BYTE PTR [rbp-0x5e],0xa6
+  aa3c8a:	80 7d a3 ed          	cmp    BYTE PTR [rbp-0x5d],0xed
+  aa3c94:	80 7d a4 67          	cmp    BYTE PTR [rbp-0x5c],0x67
+  aa3c9e:	80 7d a5 c5          	cmp    BYTE PTR [rbp-0x5b],0xc5
+  aa3ca8:	80 7d a6 a7          	cmp    BYTE PTR [rbp-0x5a],0xa7
+  aa3cb2:	80 7d a7 78          	cmp    BYTE PTR [rbp-0x59],0x78
+  aa3cbc:	80 7d a8 5f          	cmp    BYTE PTR [rbp-0x58],0x5f
+  aa3cc6:	80 7d a9 f7          	cmp    BYTE PTR [rbp-0x57],0xf7
+  aa3cd0:	80 7d aa d9          	cmp    BYTE PTR [rbp-0x56],0xd9
+  aa3cda:	80 7d ab 48          	cmp    BYTE PTR [rbp-0x55],0x48
+  aa3ce4:	80 7d ac 28          	cmp    BYTE PTR [rbp-0x54],0x28
+  aa3cee:	80 7d ad 4b          	cmp    BYTE PTR [rbp-0x53],0x4b
+  aa3cf8:	80 7d ae ad          	cmp    BYTE PTR [rbp-0x52],0xad
+  aa3d02:	80 7d af 0c          	cmp    BYTE PTR [rbp-0x51],0xc
+  aa3d0c:	80 7d b0 44          	cmp    BYTE PTR [rbp-0x50],0x44
+  aa3d16:	80 7d b1 1d          	cmp    BYTE PTR [rbp-0x4f],0x1d
+  aa3d20:	80 7d b2 7a          	cmp    BYTE PTR [rbp-0x4e],0x7a
+  aa3d2a:	80 7d b3 5d          	cmp    BYTE PTR [rbp-0x4d],0x5d
+  aa3d34:	80 7d b4 9e          	cmp    BYTE PTR [rbp-0x4c],0x9e
+  aa3d3e:	80 7d b5 5a          	cmp    BYTE PTR [rbp-0x4b],0x5a
+  aa3d48:	80 7d b6 b2          	cmp    BYTE PTR [rbp-0x4a],0xb2
+  aa3d52:	80 7d b7 7d          	cmp    BYTE PTR [rbp-0x49],0x7d
+  aa3d5c:	80 7d b8 ba          	cmp    BYTE PTR [rbp-0x48],0xba
+  aa3d66:	80 7d b9 53          	cmp    BYTE PTR [rbp-0x47],0x53
+  aa3d70:	80 7d ba c9          	cmp    BYTE PTR [rbp-0x46],0xc9
+  aa3d7a:	80 7d bb 22          	cmp    BYTE PTR [rbp-0x45],0x22
+  aa3d84:	80 7d bc eb          	cmp    BYTE PTR [rbp-0x44],0xeb
+  aa3d8e:	80 7d bd a4          	cmp    BYTE PTR [rbp-0x43],0xa4
+  aa3d98:	80 7d be 95          	cmp    BYTE PTR [rbp-0x42],0x95
+  aa3da2:	80 7d bf 21          	cmp    BYTE PTR [rbp-0x41],0x21
+  aa3dac:	80 7d c0 84          	cmp    BYTE PTR [rbp-0x40],0x84
+  aa3db6:	80 7d c1 e3          	cmp    BYTE PTR [rbp-0x3f],0xe3
+  aa3dc0:	80 7d c2 e9          	cmp    BYTE PTR [rbp-0x3e],0xe9
+  aa3dca:	80 7d c3 fa          	cmp    BYTE PTR [rbp-0x3d],0xfa
+  aa3dd4:	80 7d c4 a3          	cmp    BYTE PTR [rbp-0x3c],0xa3
+  aa3dde:	80 7d c5 89          	cmp    BYTE PTR [rbp-0x3b],0x89
+  aa3de8:	80 7d c6 a6          	cmp    BYTE PTR [rbp-0x3a],0xa6
+  aa3df2:	80 7d c7 69          	cmp    BYTE PTR [rbp-0x39],0x69
+  aa3dfc:	80 7d c8 ba          	cmp    BYTE PTR [rbp-0x38],0xba
+  aa3e06:	80 7d c9 69          	cmp    BYTE PTR [rbp-0x37],0x69
+  aa3e10:	80 7d ca ca          	cmp    BYTE PTR [rbp-0x36],0xca
+  aa3e1a:	80 7d cb 6e          	cmp    BYTE PTR [rbp-0x35],0x6e
+  aa3e24:	80 7d cc 93          	cmp    BYTE PTR [rbp-0x34],0x93
+  aa3e2e:	80 7d cd 85          	cmp    BYTE PTR [rbp-0x33],0x85
+  aa3e38:	80 7d ce bd          	cmp    BYTE PTR [rbp-0x32],0xbd
+  aa3e42:	80 7d cf dd          	cmp    BYTE PTR [rbp-0x31],0xdd
+  aa3e4c:	80 7d d0 af          	cmp    BYTE PTR [rbp-0x30],0xaf
+  aa3e56:	80 7d d1 6c          	cmp    BYTE PTR [rbp-0x2f],0x6c
+  aa3e60:	80 7d d2 1b          	cmp    BYTE PTR [rbp-0x2e],0x1b
+  aa3e6a:	80 7d d3 0c          	cmp    BYTE PTR [rbp-0x2d],0xc
+  aa3e74:	80 7d d4 5d          	cmp    BYTE PTR [rbp-0x2c],0x5d
+  aa3e7e:	80 7d d5 08          	cmp    BYTE PTR [rbp-0x2b],0x8
+  aa3e88:	80 7d d6 e1          	cmp    BYTE PTR [rbp-0x2a],0xe1
+  aa3e92:	80 7d d7 44          	cmp    BYTE PTR [rbp-0x29],0x44
+  aa3e9c:	80 7d d8 e1          	cmp    BYTE PTR [rbp-0x28],0xe1
+  aa3ea6:	80 7d d9 b2          	cmp    BYTE PTR [rbp-0x27],0xb2
+  aa3eb0:	80 7d da e0          	cmp    BYTE PTR [rbp-0x26],0xe0
+  aa3eba:	80 7d db 1a          	cmp    BYTE PTR [rbp-0x25],0x1a
+  aa3ec4:	80 7d dc 92          	cmp    BYTE PTR [rbp-0x24],0x92
+  aa3ece:	80 7d dd f8          	cmp    BYTE PTR [rbp-0x23],0xf8
+  aa3ed8:	80 7d de c3          	cmp    BYTE PTR [rbp-0x22],0xc3
+  aa3ee2:	80 7d df d7          	cmp    BYTE PTR [rbp-0x21],0xd7
+  aa3eec:	80 7d e0 c7          	cmp    BYTE PTR [rbp-0x20],0xc7
+  aa3ef6:	80 7d e1 b0          	cmp    BYTE PTR [rbp-0x1f],0xb0
+  aa3f00:	80 7d e2 16          	cmp    BYTE PTR [rbp-0x1e],0x16
+  aa3f0a:	80 7d e3 70          	cmp    BYTE PTR [rbp-0x1d],0x70
+  aa3f14:	80 7d e4 9a          	cmp    BYTE PTR [rbp-0x1c],0x9a
+  aa3f1e:	80 7d e5 ea          	cmp    BYTE PTR [rbp-0x1b],0xea
+  aa3f28:	80 7d e6 c5          	cmp    BYTE PTR [rbp-0x1a],0xc5
+  aa3f32:	80 7d e7 b5          	cmp    BYTE PTR [rbp-0x19],0xb5
+  aa3f3c:	80 7d e8 7f          	cmp    BYTE PTR [rbp-0x18],0x7f
+  aa3f46:	80 7d e9 c9          	cmp    BYTE PTR [rbp-0x17],0xc9
+  aa3f50:	80 7d ea 7a          	cmp    BYTE PTR [rbp-0x16],0x7a
+  aa3f5a:	80 7d eb 79          	cmp    BYTE PTR [rbp-0x15],0x79
+  aa3f64:	80 7d ec fa          	cmp    BYTE PTR [rbp-0x14],0xfa
+  aa3f6e:	80 7d ed 57          	cmp    BYTE PTR [rbp-0x13],0x57
+  aa3f78:	80 7d ee 6b          	cmp    BYTE PTR [rbp-0x12],0x6b
+  aa3f82:	80 7d ef 3b          	cmp    BYTE PTR [rbp-0x11],0x3b
+  aa3f8c:	80 7d f0 4b          	cmp    BYTE PTR [rbp-0x10],0x4b
+  aa3f96:	80 7d f1 6c          	cmp    BYTE PTR [rbp-0xf],0x6c
+  aa3fa0:	80 7d f2 50          	cmp    BYTE PTR [rbp-0xe],0x50
+  aa3faa:	80 7d f3 bc          	cmp    BYTE PTR [rbp-0xd],0xbc
+  aa3fb4:	80 7d f4 b4          	cmp    BYTE PTR [rbp-0xc],0xb4
+  aa3fbe:	80 7d f5 aa          	cmp    BYTE PTR [rbp-0xb],0xaa
+  aa3fc8:	80 7d f6 75          	cmp    BYTE PTR [rbp-0xa],0x75
+  aa3fd2:	80 7d f7 98          	cmp    BYTE PTR [rbp-0x9],0x98
+  aa3fdc:	80 7d f8 d3          	cmp    BYTE PTR [rbp-0x8],0xd3
+  aa3fe6:	80 7d f9 34          	cmp    BYTE PTR [rbp-0x7],0x34
+  aa3ff0:	80 7d fa d1          	cmp    BYTE PTR [rbp-0x6],0xd1
+  aa3ffa:	80 7d fb 1c          	cmp    BYTE PTR [rbp-0x5],0x1c
+  aa4004:	80 7d fc 8c          	cmp    BYTE PTR [rbp-0x4],0x8c
+  aa400e:	80 7d fd 7b          	cmp    BYTE PTR [rbp-0x3],0x7b
+  aa4018:	80 7d fe 19          	cmp    BYTE PTR [rbp-0x2],0x19
+  aa4022:	80 7d ff 7d          	cmp    BYTE PTR [rbp-0x1],0x7d
